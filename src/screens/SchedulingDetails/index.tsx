@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigation } from '@react-navigation/native';
 //import { format } from 'date-fns';
 import { Feather } from '@expo/vector-icons';
 import { RFValue } from 'react-native-responsive-fontsize';
@@ -22,6 +23,12 @@ interface RentalPeriod {
 
 export function SchedulingDetails(){
   const theme = useTheme();
+
+  const navigation = useNavigation()
+
+  function handleConfirmation() {
+    navigation.navigate('Confirmation')
+  }
 
   return (
     <S.Container >
@@ -96,6 +103,7 @@ export function SchedulingDetails(){
         <Button 
           title="Alugar agora"
           color={theme.colors.success}
+          onPress={handleConfirmation}
         />
       </S.Footer>
     </S.Container>

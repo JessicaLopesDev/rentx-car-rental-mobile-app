@@ -15,7 +15,6 @@ export const Container = styled(RectButton)`
 
     padding: 24px;
     margin-bottom: 16px;
-  
   `}
 `;
 

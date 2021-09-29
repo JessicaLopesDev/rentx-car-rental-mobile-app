@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigation } from '@react-navigation/native';
 import { useWindowDimensions, StatusBar } from 'react-native';
 //import { useNavigation, useRoute } from '@react-navigation/native';
 
@@ -17,14 +18,11 @@ import * as S from './styles';
 
 export function Confirmation(){
   const { width } = useWindowDimensions();
-  // const navigation = useNavigation();
-  // const route = useRoute();
+  const navigation = useNavigation();
 
-  // const { title, message, nextScreenRoute } = route.params as Params;
-
-  // const handleConfirm = () => {
-  //   navigation.navigate(nextScreenRoute)
-  // }
+  const handleConfirm = () => {
+    navigation.navigate('Home')
+  }
 
   return (
     <S.Container>
@@ -47,7 +45,7 @@ export function Confirmation(){
       </S.Content>
 
       <S.Footer>
-        <ConfirmButton title="OK" onPress={() => {}} />
+        <ConfirmButton title="OK" onPress={handleConfirm} />
       </S.Footer>
 
     </S.Container>
