@@ -13,11 +13,11 @@ interface CarData {
   thumbnail: string;
 }
 
-interface Props {
+export interface CarProps {
   data: CarData;
 }
 
-export function Card({ data }: Props){
+export function Card({ data }: CarProps){
   return (
     <S.Container>
       <S.Details>
