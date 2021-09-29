@@ -1,13 +1,27 @@
-import React from 'react';
-import { Accessory } from '../../components/Accessory';
+import React, { useEffect, useState } from 'react';
+//import { format } from 'date-fns';
+import { Feather } from '@expo/vector-icons';
+import { RFValue } from 'react-native-responsive-fontsize';
+import { useTheme } from 'styled-components';
+
 import { BackButton } from '../../components/BackButton';
 import { ImageSlider } from '../../components/ImageSlider';
-
-import SpeedSvg from '../../assets/speed.svg';
-import * as S from './styles';
+import { Accessory } from '../../components/Accessory';
 import { Button } from '../../components/Button';
+import SpeedSvg from '../../assets/speed.svg';
+
+import { Alert } from 'react-native';
+
+import * as S from './styles';
+
+
+interface RentalPeriod {
+  start: string;
+  end: string
+}
 
 export function SchedulingDetails(){
+  const theme = useTheme();
 
   return (
     <S.Container >
@@ -15,11 +29,11 @@ export function SchedulingDetails(){
         <BackButton onPress={() => {}}/>
       </S.Header>
 
-      <S.CarImage>
+      <S.CarImages>
         <ImageSlider 
           imagesUrl={['https://freepngimg.com/thumb/audi/35227-5-audi-rs5-red.png']}
         />
-      </S.CarImage>
+      </S.CarImages>
       
       <S.Content>
         <S.Details>
@@ -43,16 +57,45 @@ export function SchedulingDetails(){
           <Accessory name="380Km/h" icon={SpeedSvg}/>
         </S.Accessories>
 
-        <S.About>
-          Este é automóvel desportivo. Surgiu do lendário 
-          touro de lide indultado na praça Real Maestranza de Sevilla. 
-          É um belíssimo carro para quem gosta de acelerar.
-        </S.About>
+        <S.RentalPeriod>
+          <S.CalendarIcon>
+            <Feather 
+              name="calendar"
+              size={RFValue(24)}
+              color={theme.colors.shape}
+            />
+          </S.CalendarIcon>
+
+          <S.DateInfo>
+            <S.DateTitle>DE</S.DateTitle>
+            <S.DateValue>18/10/2021</S.DateValue>
+          </S.DateInfo>
+
+          <Feather 
+            name="chevron-right"
+            size={RFValue(10)}
+            color={theme.colors.text}
+          />
+
+          <S.DateInfo>
+            <S.DateTitle>ATÉ</S.DateTitle>
+            <S.DateValue>21/10/2021</S.DateValue>
+          </S.DateInfo>
+        </S.RentalPeriod>
+
+        <S.RentalPrice>
+          <S.RentalPriceLabel>TOTAL</S.RentalPriceLabel>
+          <S.RentalPriceDetails>
+            <S.RentalPriceQuota>R$ 580 x3 diárias</S.RentalPriceQuota>
+            <S.RentalPriceTotal>R$ 2.900</S.RentalPriceTotal>
+          </S.RentalPriceDetails>
+        </S.RentalPrice>
       </S.Content>
 
       <S.Footer>
         <Button 
-          title="Escolher período do aluguel"
+          title="Alugar agora"
+          color={theme.colors.success}
         />
       </S.Footer>
     </S.Container>
