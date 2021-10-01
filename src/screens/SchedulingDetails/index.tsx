@@ -41,10 +41,14 @@ export function SchedulingDetails({ navigation }: NextScreenProps){
     navigation.navigate('Confirmation');
   }
 
+  function handleBack() {
+    navigation.goBack();
+  };
+
   return (
     <S.Container >
       <S.Header>
-        <BackButton onPress={() => {}}/>
+        <BackButton onPress={handleBack}/>
       </S.Header>
 
       <S.CarImages>

@@ -12,9 +12,12 @@ import { CarDTO } from '../../dtos/CarDTO';
 import { Load } from '../../components/Load';
 
 
-type RootStackParamList = {
-  Home: undefined;
-  CarDetails: undefined;
+export type RootStackParamList = {
+  Home: {car: CarDTO};
+  CarDetails: {car: CarDTO};
+  Scheduling: {car: CarDTO};
+  SchedulingDetails: {car: CarDTO};
+  Confirmation: undefined;
 };
 
 type HomeScreenNavigationProp = StackNavigationProp<
@@ -22,25 +25,13 @@ type HomeScreenNavigationProp = StackNavigationProp<
   'Home'
 >;
 
-
 export function Home(){
   const [cars, setCars] = useState<CarDTO[]>([]);
   const [loading, setLoading] = useState(true);
   const navigation = useNavigation<HomeScreenNavigationProp>();
-  
 
-  const carData = { 
-    brand: 'AUDI',
-    name: 'RS 5 Coupé',
-    rent: {
-      period: 'Ao dia',
-      price: 120,
-    },
-    thumbnail: 'https://freepngimg.com/thumb/audi/35227-5-audi-rs5-red.png',
-  };
-
-  function handleCarDetails() {
-    navigation.navigate('CarDetails')
+  function handleCarDetails(car: CarDTO) {
+    navigation.navigate('CarDetails', { car })
   }
 
   useEffect(() => {
@@ -80,7 +71,7 @@ export function Home(){
           renderItem={({ item }) => 
             <Card 
               data={item}
-              onPress={handleCarDetails}
+              onPress={() => handleCarDetails(item)}
             />
           }
         />

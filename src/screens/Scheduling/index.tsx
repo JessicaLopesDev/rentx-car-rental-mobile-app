@@ -30,6 +30,10 @@ export function Scheduling({ navigation }: NextScreenProps){
     navigation.navigate('SchedulingDetails')
   }
 
+  function handleBack() {
+    navigation.goBack();
+  };
+
   const theme = useTheme();
   return (
     <S.Container>
@@ -40,7 +44,7 @@ export function Scheduling({ navigation }: NextScreenProps){
           backgroundColor="transparent"
         />
         <BackButton 
-          onPress={() => {}}
+          onPress={handleBack}
           color={theme.colors.shape}
         />
 

@@ -7,12 +7,8 @@ import { Button } from '../../components/Button';
 import SpeedSvg from '../../assets/speed.svg';
 import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
-
-
-type RootStackParamList = {
-  CarDetails: undefined;
-  Scheduling: undefined;
-};
+import { RootStackParamList } from '../Home';
+import { CarDTO } from '../../dtos/CarDTO';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -21,18 +17,23 @@ type NextScreenNavigationProp = StackNavigationProp<
 
 type NextScreenProps = {
   navigation: NextScreenNavigationProp;
+  car: CarDTO
 }
 
-export function CarDetails({ navigation }: NextScreenProps){
+export function CarDetails({ navigation, car }: NextScreenProps){
 
   function handleScheduling() {
-    navigation.navigate('Scheduling')
+    navigation.navigate('Scheduling', {car})
+  };
+
+  function handleBack() {
+    navigation.goBack();
   };
 
   return (
     <S.Container >
       <S.Header>
-        <BackButton onPress={() => {}}/>
+        <BackButton onPress={handleBack}/>
       </S.Header>
 
       <S.CarImage>
@@ -44,13 +45,13 @@ export function CarDetails({ navigation }: NextScreenProps){
       <S.Content>
         <S.Details>
           <S.Description>
-            <S.Brand>Lamburghini</S.Brand>
-            <S.Name>Huracan</S.Name>
+            <S.Brand>{car.brand}</S.Brand>
+            <S.Name>{car.name}</S.Name>
           </S.Description>
 
           <S.Rent>
-            <S.Period>Ao dia</S.Period>
-            <S.Price>R$ 580</S.Price>
+            <S.Period>{car.rent.period}</S.Period>
+            <S.Price>{car.rent.price}</S.Price>
           </S.Rent>
         </S.Details>
 
@@ -63,11 +64,7 @@ export function CarDetails({ navigation }: NextScreenProps){
           <Accessory name="380Km/h" icon={SpeedSvg}/>
         </S.Accessories>
 
-        <S.About>
-          Este é automóvel desportivo. Surgiu do lendário 
-          touro de lide indultado na praça Real Maestranza de Sevilla. 
-          É um belíssimo carro para quem gosta de acelerar.
-        </S.About>
+        <S.About>{car.about}</S.About>
       </S.Content>
 
       <S.Footer>
