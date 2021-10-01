@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigation } from '@react-navigation/native';
 import { StatusBar } from 'react-native';
 import { BackButton } from '../../components/BackButton';
 import { useTheme } from 'styled-components';
@@ -8,9 +7,24 @@ import { Calendar } from '../../components/Calendar';
 import ArrowSvg from '../../assets/arrow.svg';
 
 import * as S from './styles';
+import { StackNavigationProp } from '@react-navigation/stack';
 
-export function Scheduling(){
-  const navigation = useNavigation()
+type RootStackParamList = {
+  Scheduling: undefined;
+  SchedulingDetails: undefined;
+};
+
+type NextScreenNavigationProp = StackNavigationProp<
+  RootStackParamList,
+  'Scheduling'
+>;
+
+type NextScreenProps = {
+  navigation: NextScreenNavigationProp;
+}
+
+
+export function Scheduling({ navigation }: NextScreenProps){
 
   function handleSchedulingDetails() {
     navigation.navigate('SchedulingDetails')

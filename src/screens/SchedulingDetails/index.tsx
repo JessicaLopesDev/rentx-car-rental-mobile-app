@@ -11,23 +11,34 @@ import { Accessory } from '../../components/Accessory';
 import { Button } from '../../components/Button';
 import SpeedSvg from '../../assets/speed.svg';
 
-import { Alert } from 'react-native';
-
 import * as S from './styles';
+import { StackNavigationProp } from '@react-navigation/stack';
 
+type RootStackParamList = {
+  SchedulingDetails: undefined;
+  Confirmation: undefined;
+};
 
-interface RentalPeriod {
-  start: string;
-  end: string
+type NextScreenNavigationProp = StackNavigationProp<
+  RootStackParamList,
+  'SchedulingDetails'
+>;
+
+type NextScreenProps = {
+  navigation: NextScreenNavigationProp;
 }
 
-export function SchedulingDetails(){
+
+// interface RentalPeriod {
+//   start: string;
+//   end: string
+// }
+
+export function SchedulingDetails({ navigation }: NextScreenProps){
   const theme = useTheme();
 
-  const navigation = useNavigation()
-
   function handleConfirmation() {
-    navigation.navigate('Confirmation')
+    navigation.navigate('Confirmation');
   }
 
   return (

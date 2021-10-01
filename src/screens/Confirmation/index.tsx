@@ -1,14 +1,26 @@
 import React from 'react';
-import { useNavigation } from '@react-navigation/native';
 import { useWindowDimensions, StatusBar } from 'react-native';
 //import { useNavigation, useRoute } from '@react-navigation/native';
-
 import LogoSvg from '../../assets/logo_background_gray.svg';
 import DoneSvg from '../../assets/done.svg';
-
 import { ConfirmButton } from '../../components/ConfirmButton';
+import { StackNavigationProp } from '@react-navigation/stack';
 
 import * as S from './styles';
+
+type RootStackParamList = {
+  Confirmation: undefined;
+  Home: undefined;
+};
+
+type NextScreenNavigationProp = StackNavigationProp<
+  RootStackParamList,
+  'Confirmation'
+>;
+
+type NextScreenProps = {
+  navigation: NextScreenNavigationProp;
+}
 
 // interface Params {
 //   title: string;
@@ -16,9 +28,8 @@ import * as S from './styles';
 //   nextScreenRoute: string;
 // }
 
-export function Confirmation(){
+export function Confirmation({ navigation }: NextScreenProps){
   const { width } = useWindowDimensions();
-  const navigation = useNavigation();
 
   const handleConfirm = () => {
     navigation.navigate('Home')

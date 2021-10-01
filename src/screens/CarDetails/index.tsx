@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigation } from '@react-navigation/native';
 import { Accessory } from '../../components/Accessory';
 import { BackButton } from '../../components/BackButton';
 import { ImageSlider } from '../../components/ImageSlider';
@@ -7,13 +6,28 @@ import { Button } from '../../components/Button';
 
 import SpeedSvg from '../../assets/speed.svg';
 import * as S from './styles';
+import { StackNavigationProp } from '@react-navigation/stack';
 
-export function CarDetails(){
-  const navigation = useNavigation()
+
+type RootStackParamList = {
+  CarDetails: undefined;
+  Scheduling: undefined;
+};
+
+type NextScreenNavigationProp = StackNavigationProp<
+  RootStackParamList,
+  'CarDetails'
+>;
+
+type NextScreenProps = {
+  navigation: NextScreenNavigationProp;
+}
+
+export function CarDetails({ navigation }: NextScreenProps){
 
   function handleScheduling() {
     navigation.navigate('Scheduling')
-  }
+  };
 
   return (
     <S.Container >

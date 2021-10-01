@@ -6,11 +6,22 @@ import { Card } from '../../components/Card';
 import { useNavigation } from '@react-navigation/native';
 
 import * as S from './styles';
+import { StackNavigationProp } from '@react-navigation/stack';
+
+
+type RootStackParamList = {
+  Home: undefined;
+  CarDetails: undefined;
+};
+
+type HomeScreenNavigationProp = StackNavigationProp<
+  RootStackParamList,
+  'Home'
+>;
 
 
 export function Home(){
-  const navigation = useNavigation();
-
+  const navigation = useNavigation<HomeScreenNavigationProp>();
 
   const carData = {
     brand: 'AUDI',
