@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
 import Logo from '../../assets/logo.svg';
@@ -7,6 +7,9 @@ import { useNavigation } from '@react-navigation/native';
 
 import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
+import api from '../../services/api';
+import { CarDTO } from '../../dtos/CarDTO';
+import { Load } from '../../components/Load';
 
 
 type RootStackParamList = {
@@ -21,9 +24,12 @@ type HomeScreenNavigationProp = StackNavigationProp<
 
 
 export function Home(){
+  const [cars, setCars] = useState<CarDTO[]>([]);
+  const [loading, setLoading] = useState(true);
   const navigation = useNavigation<HomeScreenNavigationProp>();
+  
 
-  const carData = {
+  const carData = { 
     brand: 'AUDI',
     name: 'RS 5 Coupé',
     rent: {
@@ -36,6 +42,20 @@ export function Home(){
   function handleCarDetails() {
     navigation.navigate('CarDetails')
   }
+
+  useEffect(() => {
+    async function fetchCars() {
+      try {
+        const response = await api.get('/cars');
+        setCars(response.data);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchCars();
+  },[]);
 
   return (
     <S.Container>
@@ -51,18 +71,20 @@ export function Home(){
         />
         <S.TotalCars>Total de 12 carros</S.TotalCars>
       </S.Header>
+      { loading ? 
+        <Load /> :
 
-      <S.CarList
-        data={[1, 2, 3, 4, 5, 6]}
-        keyExtractor={item => String(item)}
-        renderItem={({ item }) => 
-          <Card 
-            data={carData}
-            onPress={handleCarDetails}
-          />
-        }
-      />
-
+        <S.CarList
+          data={cars}
+          keyExtractor={item => item.id}
+          renderItem={({ item }) => 
+            <Card 
+              data={item}
+              onPress={handleCarDetails}
+            />
+          }
+        />
+      }
     </S.Container>
   )
 }
