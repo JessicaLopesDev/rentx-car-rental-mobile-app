@@ -4,26 +4,37 @@ import { BackButton } from '../../components/BackButton';
 import { ImageSlider } from '../../components/ImageSlider';
 import { Button } from '../../components/Button';
 
-import SpeedSvg from '../../assets/speed.svg';
 import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Home';
 import { CarDTO } from '../../dtos/CarDTO';
+import { RouteProp } from '@react-navigation/native';
+import { getAccessoryIcon } from '../../utils/getAccessoryIcon';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
   'CarDetails'
 >;
 
+type NextScreenRouteProp = RouteProp<
+  RootStackParamList, 
+  'CarDetails'
+>;
+
 type NextScreenProps = {
   navigation: NextScreenNavigationProp;
-  car: CarDTO
+  route: NextScreenRouteProp;
 }
 
-export function CarDetails({ navigation, car }: NextScreenProps){
+interface Params {
+  car: CarDTO;
+}
+
+export function CarDetails({ navigation, route }: NextScreenProps){
+  const { car } = route.params as Params
 
   function handleScheduling() {
-    navigation.navigate('Scheduling', {car})
+    navigation.navigate('Scheduling')
   };
 
   function handleBack() {
@@ -38,7 +49,7 @@ export function CarDetails({ navigation, car }: NextScreenProps){
 
       <S.CarImage>
         <ImageSlider 
-          imagesUrl={['https://freepngimg.com/thumb/audi/35227-5-audi-rs5-red.png']}
+          imagesUrl={car.photos}
         />
       </S.CarImage>
       
@@ -51,17 +62,20 @@ export function CarDetails({ navigation, car }: NextScreenProps){
 
           <S.Rent>
             <S.Period>{car.rent.period}</S.Period>
-            <S.Price>{car.rent.price}</S.Price>
+            <S.Price>{`R$ ${car.rent.price}`}</S.Price>
           </S.Rent>
         </S.Details>
 
         <S.Accessories>
-          <Accessory name="380Km/h" icon={SpeedSvg}/>
-          <Accessory name="380Km/h" icon={SpeedSvg}/>
-          <Accessory name="380Km/h" icon={SpeedSvg}/>
-          <Accessory name="380Km/h" icon={SpeedSvg}/>
-          <Accessory name="380Km/h" icon={SpeedSvg}/>
-          <Accessory name="380Km/h" icon={SpeedSvg}/>
+          {
+            car.accessories.map(accessory => (
+              <Accessory 
+                key={accessory.type}
+                name={accessory.name}
+                icon={getAccessoryIcon(accessory.type)}
+              />
+            ))
+          }
         </S.Accessories>
 
         <S.About>{car.about}</S.About>

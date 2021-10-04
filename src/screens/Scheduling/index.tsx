@@ -8,11 +8,8 @@ import ArrowSvg from '../../assets/arrow.svg';
 
 import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
+import { RootStackParamList } from '../Home';
 
-type RootStackParamList = {
-  Scheduling: undefined;
-  SchedulingDetails: undefined;
-};
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,

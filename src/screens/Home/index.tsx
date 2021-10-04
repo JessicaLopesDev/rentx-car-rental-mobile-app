@@ -13,10 +13,10 @@ import { Load } from '../../components/Load';
 
 
 export type RootStackParamList = {
-  Home: {car: CarDTO};
-  CarDetails: {car: CarDTO};
-  Scheduling: {car: CarDTO};
-  SchedulingDetails: {car: CarDTO};
+  Home: undefined;
+  CarDetails: { car: CarDTO } | undefined;
+  Scheduling: undefined;
+  SchedulingDetails: undefined;
   Confirmation: undefined;
 };
 
