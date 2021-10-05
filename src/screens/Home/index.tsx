@@ -7,9 +7,11 @@ import { useNavigation } from '@react-navigation/native';
 
 import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
+import { Ionicons } from '@expo/vector-icons';
 import api from '../../services/api';
 import { CarDTO } from '../../dtos/CarDTO';
 import { Load } from '../../components/Load';
+import { useTheme } from 'styled-components';
 
 
 export type RootStackParamList = {
@@ -18,6 +20,7 @@ export type RootStackParamList = {
   Scheduling: {} | undefined;
   SchedulingDetails: {} | undefined;
   Confirmation: undefined;
+  MyCars: undefined;
 };
 
 type HomeScreenNavigationProp = StackNavigationProp<
@@ -29,9 +32,14 @@ export function Home(){
   const [cars, setCars] = useState<CarDTO[]>([]);
   const [loading, setLoading] = useState(true);
   const navigation = useNavigation<HomeScreenNavigationProp>();
+  const theme = useTheme();
 
   function handleCarDetails(car: CarDTO) {
     navigation.navigate('CarDetails', { car })
+  }
+
+  function handleMyCars() {
+    navigation.navigate('MyCars');
   }
 
   useEffect(() => {
@@ -76,6 +84,14 @@ export function Home(){
           }
         />
       }
+
+      <S.MyCarsButton onPress={handleMyCars}>
+        <Ionicons 
+          name="ios-car-sport"
+          size={32}
+          color={theme.colors.shape}
+        />
+      </S.MyCarsButton>
     </S.Container>
   )
 }

@@ -135,7 +135,7 @@ export function Scheduling({ navigation, route }: NextScreenProps){
         <Button 
           title="Confirmar" 
           onPress={handleRentalConfirm} 
-          enabled
+          enabled={!!rentPeriod.startFormatted}
         />
       </S.Footer>
 
