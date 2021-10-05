@@ -1,14 +1,19 @@
-import React from 'react';
-import { StatusBar } from 'react-native';
+import React, { useState } from 'react';
+import { Alert, StatusBar } from 'react-native';
 import { BackButton } from '../../components/BackButton';
 import { useTheme } from 'styled-components';
 import { Button } from '../../components/Button';
-import { Calendar } from '../../components/Calendar';
+import { Calendar, DayProps, MarkedDateProps } from '../../components/Calendar';
 import ArrowSvg from '../../assets/arrow.svg';
 
-import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Home';
+import { generateInterval } from '../../components/Calendar/generateInterval';
+import { format } from 'date-fns';
+import { getPlatformDate } from '../../utils/getPlatformDate';
+import { RouteProp } from '@react-navigation/native';
+import { CarDTO } from '../../dtos/CarDTO';
+import * as S from './styles';
 
 
 type NextScreenNavigationProp = StackNavigationProp<
@@ -16,22 +21,71 @@ type NextScreenNavigationProp = StackNavigationProp<
   'Scheduling'
 >;
 
+type NextScreenRouteProp = RouteProp<
+  RootStackParamList, 
+  'Scheduling'
+>;
+
 type NextScreenProps = {
   navigation: NextScreenNavigationProp;
+  route: NextScreenRouteProp;
+}
+
+interface RentalPeriod {
+  startFormatted: string;
+  endFormatted: string;
+}
+
+interface Params {
+  car: CarDTO;
 }
 
 
-export function Scheduling({ navigation }: NextScreenProps){
+export function Scheduling({ navigation, route }: NextScreenProps){
+  const [lastSelectedDate, setLastSelectedDate] = useState<DayProps>({} as DayProps);
+  const [markedDates, setMarkedDates] = useState<MarkedDateProps>({} as MarkedDateProps);
+  const [rentPeriod, setRentPeriod] = useState<RentalPeriod>({} as RentalPeriod) 
+  
+  const theme = useTheme();
+  const { car } = route.params as Params
 
-  function handleSchedulingDetails() {
-    navigation.navigate('SchedulingDetails')
+  function handleRentalConfirm() {
+    if(!rentPeriod.startFormatted || !rentPeriod.endFormatted) {
+      Alert.alert('Selecione a data inicial e data final que deseja alugar.')
+    } else {
+      navigation.navigate('SchedulingDetails', {
+        car,
+        dates: Object.keys(markedDates)
+      })
+    }
   }
 
   function handleBack() {
     navigation.goBack();
   };
 
-  const theme = useTheme();
+  const handleChangeDate = (date: DayProps) => {
+    let start = !lastSelectedDate.timestamp ? date : lastSelectedDate;
+    let end = date;
+
+    if(start.timestamp > end.timestamp) {
+      start = end;
+      end = start;
+    }
+    setLastSelectedDate(end);
+    const interval = generateInterval(start, end)
+    setMarkedDates(interval);
+
+    const firstDate = Object.keys(interval)[0];
+    const endDate = Object.keys(interval)[Object.keys(interval).length -1];
+
+    setRentPeriod({
+      startFormatted: format(getPlatformDate(new Date(firstDate)), 'dd/MM/yyyy'),
+      endFormatted: format(getPlatformDate(new Date(endDate)), 'dd/MM/yyyy'),
+    })
+
+  }
+
   return (
     <S.Container>
       <S.Header>
@@ -54,8 +108,8 @@ export function Scheduling({ navigation }: NextScreenProps){
         <S.RentalPeriod>
           <S.DateInfo>
             <S.DateTitle>DE</S.DateTitle>
-            <S.DateValue selected={false}>
-              18/10/2021
+            <S.DateValue selected={!!rentPeriod.startFormatted}>
+              {rentPeriod.startFormatted}
             </S.DateValue>
           </S.DateInfo>
 
@@ -63,21 +117,24 @@ export function Scheduling({ navigation }: NextScreenProps){
 
           <S.DateInfo>
             <S.DateTitle>ATÉ</S.DateTitle>
-            <S.DateValue selected={false}>
-              20/10/2021
+            <S.DateValue selected={!!rentPeriod.endFormatted}>
+              {rentPeriod.endFormatted}
             </S.DateValue>
           </S.DateInfo>
         </S.RentalPeriod>
       </S.Header>
       <S.Content>
-        <Calendar />
+        <Calendar 
+          markedDates={markedDates}
+          onDayPress={handleChangeDate}
+        />
       </S.Content>
 
 
       <S.Footer>
         <Button 
           title="Confirmar" 
-          onPress={handleSchedulingDetails} 
+          onPress={handleRentalConfirm} 
           enabled
         />
       </S.Footer>

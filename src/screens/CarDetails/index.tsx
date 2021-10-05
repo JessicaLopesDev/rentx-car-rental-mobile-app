@@ -34,7 +34,7 @@ export function CarDetails({ navigation, route }: NextScreenProps){
   const { car } = route.params as Params
 
   function handleScheduling() {
-    navigation.navigate('Scheduling')
+    navigation.navigate('Scheduling', { car })
   };
 
   function handleBack() {
