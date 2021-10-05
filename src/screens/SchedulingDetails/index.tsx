@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { RouteProp } from '@react-navigation/native';
+import { RouteProp, useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
 import { RFValue } from 'react-native-responsive-fontsize';
 import { useTheme } from 'styled-components';
@@ -17,6 +17,7 @@ import { getAccessoryIcon } from '../../utils/getAccessoryIcon';
 import { format } from 'date-fns';
 import { getPlatformDate } from '../../utils/getPlatformDate';
 import api from '../../services/api';
+import { Alert } from 'react-native';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -42,6 +43,10 @@ interface RentalPeriod {
   end: string
 }
 
+interface UnavailableDatesProps {
+  unavailable_dates: string[];
+}
+
 export function SchedulingDetails({ navigation, route }: NextScreenProps){
   const [rentalPeriod, setRentalPeriod] = useState<RentalPeriod>({} as RentalPeriod)
   const theme = useTheme();
@@ -50,9 +55,11 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
 
   async function handleConfirmation() {
     const schedulesByCar = await api.get(`/schedules_bycars/${car.id}`);
+    const dataUnavailableDates = schedulesByCar.data as UnavailableDatesProps;
+    const unavailableDates = dataUnavailableDates.unavailable_dates
 
     const unavailable_dates = [
-      ...schedulesByCar.data.unavailable_dates,
+      ...unavailableDates,
       ...dates,
     ];
 
@@ -60,13 +67,8 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
       id: car.id,
       unavailable_dates
     })
-
-
-
-
-
-
-    navigation.navigate('Confirmation');
+    .then(() => navigation.navigate('Confirmation'))
+    .catch(() => Alert.alert('Não foi possível confirmar o agendamento.'))
   }
 
   function handleBack() {
