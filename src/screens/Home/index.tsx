@@ -15,6 +15,7 @@ import { useTheme } from 'styled-components';
 
 
 export type RootStackParamList = {
+  Splash: undefined;
   Home: undefined;
   CarDetails: {} | undefined;
   Scheduling: {} | undefined;
