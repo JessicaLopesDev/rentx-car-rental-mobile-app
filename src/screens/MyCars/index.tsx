@@ -10,7 +10,7 @@ import { CarDTO } from '../../dtos/CarDTO';
 import api from '../../services/api';
 
 import * as S from './styles';
-import { Load } from '../../components/Load';
+import { LoadAnimation } from '../../components/LoadAnimation';
 
 interface CarProps {
   id: string;
@@ -26,7 +26,6 @@ export function MyCars(){
 
   const navigation = useNavigation();
   const theme = useTheme();
-
 
   const handleBack = () => {
     navigation.goBack();
@@ -70,7 +69,7 @@ export function MyCars(){
         </S.SubTitle>
       </S.Header>
       {
-        loading ? <Load /> :
+        loading ? <LoadAnimation /> :
         <S.Content>
           <S.Appointments>
             <S.AppointmentsTitle>Agendamentos feitos</S.AppointmentsTitle>
@@ -79,7 +78,7 @@ export function MyCars(){
           
           <FlatList 
             data={cars}
-            keyExtractor={item => item.id}
+            keyExtractor={item => String(item.id)}
             showsVerticalScrollIndicator={false}
             renderItem={({ item }) => (
               <S.CarWrapper>
