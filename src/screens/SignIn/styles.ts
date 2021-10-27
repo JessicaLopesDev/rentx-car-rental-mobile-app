@@ -4,40 +4,42 @@ import styled, { css } from 'styled-components/native';
 
 export const Container = styled.View`
   ${({ theme }) => css`
-    flex: 1;
     padding: 0 24px;
-
-    background-color: ${theme.colors.background_primary};
+    background-color: ${theme.colors.shape};
   `}
 `;
 
 export const Header = styled.View`
-  ${({ theme }) => css`
-    width: 100%;
-    margin-top: ${getStatusBarHeight() + 116}px;
-  `}
+  width: 100%;
+  margin-top: ${getStatusBarHeight() + 115}px;
 `;
 
 export const Title = styled.Text`
   ${({ theme }) => css`
-    font-size: ${RFValue(40)}px;
+    font-size: ${RFValue(38)}px;
     font-family: ${theme.fonts.secondary_600};
     color: ${theme.colors.title};
   `}
 `;
 
-export const SubTitle = styled.Text`
+export const Subtitle = styled.Text`
   ${({ theme }) => css`
-    margin-top: 16px;
-    line-height: ${RFValue(25)}px;
-    font-size: ${RFValue(15)}px;
+    font-size: ${RFValue(13)}px;
     font-family: ${theme.fonts.primary_400};
     color: ${theme.colors.text};
+
+    line-height: 24px;
+    margin-top: 16px;
   `}
+`;
+
+export const Form = styled.View`
+  width: 100%;
+  margin: 64px 0;
 `;
 
 export const Footer = styled.View`
   ${({ theme }) => css`
-    width: 100%;
+    
   `}
 `;
