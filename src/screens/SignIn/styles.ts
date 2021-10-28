@@ -6,12 +6,16 @@ export const Container = styled.View`
   ${({ theme }) => css`
     padding: 0 24px;
     background-color: ${theme.colors.shape};
+
+    justify-content: flex-end;
   `}
 `;
 
 export const Header = styled.View`
-  width: 100%;
-  margin-top: ${getStatusBarHeight() + 115}px;
+  ${({ theme }) => css`
+    width: 100%;
+    margin-top: ${getStatusBarHeight() + 115}px;
+  `}
 `;
 
 export const Title = styled.Text`
@@ -34,12 +38,12 @@ export const Subtitle = styled.Text`
 `;
 
 export const Form = styled.View`
-  width: 100%;
-  margin: 64px 0;
+  ${({ theme }) => css`
+    width: 100%;
+    margin: 64px 0;
+  `}
 `;
 
 export const Footer = styled.View`
-  ${({ theme }) => css`
-    
-  `}
+
 `;
