@@ -14,8 +14,8 @@ import Animated, {
 import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Home';
-import { CarDTO } from '../../dtos/CarDTO';
 import { RouteProp } from '@react-navigation/native';
+import { CarDTO } from '../../dtos/CarDTO';
 import { getAccessoryIcon } from '../../utils/getAccessoryIcon';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 import { StatusBar, StyleSheet } from 'react-native';
@@ -42,7 +42,6 @@ interface Params {
 
 export function CarDetails({ navigation, route }: NextScreenProps){
   const { car } = route.params as Params
-
   const theme = useTheme()
 
   const scrollY = useSharedValue(0);

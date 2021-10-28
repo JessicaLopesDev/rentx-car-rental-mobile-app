@@ -24,6 +24,8 @@ import { LoadAnimation } from '../../components/LoadAnimation';
 const AnimatedButton = Animated.createAnimatedComponent(RectButton);
 
 export type RootStackParamList = {
+  SignUpFirstStep: {} | undefined;
+  SignUpSecondStep: {} | undefined;
   Splash: undefined;
   Home: undefined;
   CarDetails: {} | undefined;
