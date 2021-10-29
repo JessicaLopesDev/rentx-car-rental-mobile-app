@@ -65,7 +65,7 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
     ];
 
     await api.post('/schedules_byuser', {
-      user_id: 2,
+      user_id: 1,
       car,
       startDate: format(getPlatformDate(new Date(dates[0])), 'dd/MM/yyyy'),
       endDate: format(getPlatformDate(new Date(dates[dates.length -1])), 'dd/MM/yyyy')
@@ -75,7 +75,11 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
       id: car.id,
       unavailable_dates
     })
-    .then(() => navigation.navigate('Confirmation'))
+    .then(() => navigation.navigate('Confirmation', {
+      nextScreenRoute: 'Home',
+      title: 'Carro alugado!',
+      message: `Agora você só precisa ir\naté a concessionária da RENTX\npegar o seu automóvel.`
+    }))
     .catch(() => {
       setLoading(false);
       Alert.alert('Não foi possível confirmar o agendamento.')

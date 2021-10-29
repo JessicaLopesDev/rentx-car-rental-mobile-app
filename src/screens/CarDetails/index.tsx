@@ -43,6 +43,7 @@ interface Params {
 export function CarDetails({ navigation, route }: NextScreenProps){
   const { car } = route.params as Params
   const theme = useTheme()
+  console.log(car)
 
   const scrollY = useSharedValue(0);
   const scrollHandler = useAnimatedScrollHandler(event => {
@@ -99,7 +100,8 @@ export function CarDetails({ navigation, route }: NextScreenProps){
         <Animated.View style={sliderCarsStyleAnimation}>
           <S.CarImages>
             <ImageSlider 
-              imagesUrl={car.photos}
+              imagesUrl={!!car.photos ? 
+                car.photos : [{ id: car.thumbnail, photo: car.thumbnail }]}
             />
           </S.CarImages>
         </Animated.View>

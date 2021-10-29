@@ -1,38 +1,46 @@
 import React from 'react';
 import { useWindowDimensions, StatusBar } from 'react-native';
-//import { useNavigation, useRoute } from '@react-navigation/native';
 import LogoSvg from '../../assets/logo_background_gray.svg';
 import DoneSvg from '../../assets/done.svg';
 import { ConfirmButton } from '../../components/ConfirmButton';
 import { StackNavigationProp } from '@react-navigation/stack';
 
 import * as S from './styles';
-
-type RootStackParamList = {
-  Confirmation: undefined;
-  Home: undefined;
-};
+import { RouteProp } from '@react-navigation/native';
+import { RootStackParamList } from '../Home';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
   'Confirmation'
 >;
 
+type NextScreenRouteProp = RouteProp<
+  RootStackParamList, 
+  'Confirmation'
+>;
+
 type NextScreenProps = {
   navigation: NextScreenNavigationProp;
+  route: NextScreenRouteProp;
 }
 
-// interface Params {
-//   title: string;
-//   message: string;
-//   nextScreenRoute: string;
-// }
+interface Params {
+  title: string;
+  message: string;
+  nextScreenRoute: string;
+}
 
-export function Confirmation({ navigation }: NextScreenProps){
+export function Confirmation({ navigation, route }: NextScreenProps){
   const { width } = useWindowDimensions();
+  const { title, message, nextScreenRoute } = route.params as Params;
 
   const handleConfirm = () => {
-    navigation.navigate('Home')
+    if (!!nextScreenRoute && nextScreenRoute === 'SignIn') {
+      navigation.navigate('SignIn');
+      return;
+    } 
+
+    navigation.navigate('Home');
   }
 
   return (
@@ -46,13 +54,9 @@ export function Confirmation({ navigation }: NextScreenProps){
 
       <S.Content>
         <DoneSvg width={80} height={80} />
-        <S.Title>Carro alugado</S.Title>
+        <S.Title>{title}</S.Title>
 
-        <S.Message>
-          Agora você só precisa ir {'\n'}
-          até a concessionária da RENTX {'\n'}
-          pegar o seu automóvel.
-        </S.Message>
+        <S.Message>{message}</S.Message>
       </S.Content>
 
       <S.Footer>

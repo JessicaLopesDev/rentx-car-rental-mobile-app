@@ -4,34 +4,33 @@ import { RFValue } from 'react-native-responsive-fontsize';
 import Logo from '../../assets/logo.svg';
 import { Card } from '../../components/Card';
 import { useNavigation } from '@react-navigation/native';
-
-import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Ionicons } from '@expo/vector-icons';
 import api from '../../services/api';
 import { CarDTO } from '../../dtos/CarDTO';
-import { Load } from '../../components/Load';
 import { useTheme } from 'styled-components';
 import { PanGestureHandler, RectButton } from 'react-native-gesture-handler';
+import { LoadAnimation } from '../../components/LoadAnimation';
 import Animated, {
   useAnimatedGestureHandler, 
   useAnimatedStyle, 
   useSharedValue, 
   withSpring 
 } from 'react-native-reanimated';
-import { LoadAnimation } from '../../components/LoadAnimation';
+import * as S from './styles';
 
 const AnimatedButton = Animated.createAnimatedComponent(RectButton);
 
 export type RootStackParamList = {
+  SignIn: {} | undefined;
   SignUpFirstStep: {} | undefined;
   SignUpSecondStep: {} | undefined;
+  Confirmation: {} | undefined;
   Splash: undefined;
-  Home: undefined;
+  Home: {} | undefined;
   CarDetails: {} | undefined;
   Scheduling: {} | undefined;
   SchedulingDetails: {} | undefined;
-  Confirmation: undefined;
   MyCars: undefined;
 };
 

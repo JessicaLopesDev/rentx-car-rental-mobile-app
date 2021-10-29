@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { 
   KeyboardAvoidingView, 
   TouchableWithoutFeedback, 
-  Keyboard
+  Keyboard,
+  Alert
 } from 'react-native';
 import { useTheme } from 'styled-components';
 import { BackButton } from '../../../components/BackButton';
@@ -43,10 +44,20 @@ export function SignUpSecondStep({ navigation, route }: NextScreenProps){
   const theme = useTheme();
 
   const { user } = route.params as Params;
-  
 
   function handleRegister() {
-    navigation.navigate('Confirmation')
+    if(!password || !passwordConfirm) {
+      Alert.alert('Informe a senha e a confirmação')
+    }
+    if(password != passwordConfirm) {
+      Alert.alert('As senhas não são iguais')
+    }
+
+    navigation.navigate('Confirmation', {
+      nextScreenRoute: 'SignIn',
+      title: 'Conta criada!',
+      message: `Agora é só fazer o login\n e aproveitar.`
+    })
   };
 
   function handleBack() {
@@ -60,8 +71,8 @@ export function SignUpSecondStep({ navigation, route }: NextScreenProps){
           <S.Header>
             <BackButton onPress={handleBack}/>
             <S.Steps>
-              <Bullet active/>
               <Bullet/>
+              <Bullet active/>
             </S.Steps>
           </S.Header>
 

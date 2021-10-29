@@ -7,7 +7,7 @@ interface Props {
   imagesUrl: {
     id: string;
     photo: string;
-  }[]
+  }[];
 }
 
 interface ChangeImageProps {
