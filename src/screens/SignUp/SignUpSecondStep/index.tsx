@@ -1,4 +1,3 @@
-import { useNavigation } from '@react-navigation/core';
 import React, { useState } from 'react';
 import { 
   KeyboardAvoidingView, 
@@ -27,22 +26,24 @@ type NextScreenRouteProp = RouteProp<
 
 type NextScreenProps = {
   navigation: NextScreenNavigationProp;
+  route: NextScreenRouteProp;
 }
 
-// interface Params {
-//   user: {
-//     name: string;
-//     email: string;
-//     driverLicense: string;
-//   }
-// }
+interface Params {
+  user: {
+    name: string;
+    email: string;
+    driverLicense: string;
+  }
+}
 
-export function SignUpSecondStep({ navigation}: NextScreenProps){
+export function SignUpSecondStep({ navigation, route }: NextScreenProps){
   const [password, setPassword] = useState('');
   const [passwordConfirm, setPasswordConfirm] = useState('');
   const theme = useTheme();
 
-  //const { user } = route.params as Params;
+  const { user } = route.params as Params;
+  
 
   function handleRegister() {
     navigation.navigate('Confirmation')
@@ -88,7 +89,7 @@ export function SignUpSecondStep({ navigation}: NextScreenProps){
             />
           </S.Form>
           <Button 
-            title="Próximo" 
+            title="Cadastrar" 
             color={theme.colors.success}
             onPress={handleRegister}
           />
