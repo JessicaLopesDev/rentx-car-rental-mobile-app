@@ -14,14 +14,18 @@ import { SignUpSecondStep } from '../screens/SignUp/SignUpSecondStep';
 
 const { Navigator, Screen } = createStackNavigator();
 
-export function StackRoutes(){
+export function AppStackRoutes(){
   return (
     <Navigator 
       screenOptions={{
         headerShown: false,
       }} 
-      initialRouteName="SignIn"
+      initialRouteName="Splash"
       >
+        <Screen 
+        name="Splash"
+        component={Splash}
+      />
       <Screen 
         name="SignIn"
         component={SignIn}

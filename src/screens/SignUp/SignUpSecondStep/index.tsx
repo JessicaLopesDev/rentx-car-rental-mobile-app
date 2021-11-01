@@ -10,10 +10,11 @@ import { BackButton } from '../../../components/BackButton';
 import { Bullet } from '../../../components/Bullet';
 import { Button } from '../../../components/Button';
 import { PasswordInput } from '../../../components/PasswordInput';
-import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RouteProp } from '@react-navigation/native';
 import { RootStackParamList } from '../../Home';
+import api from '../../../services/api';
+import * as S from './styles';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -45,7 +46,7 @@ export function SignUpSecondStep({ navigation, route }: NextScreenProps){
 
   const { user } = route.params as Params;
 
-  function handleRegister() {
+  async function handleRegister() {
     if(!password || !passwordConfirm) {
       Alert.alert('Informe a senha e a confirmação')
     }
@@ -53,11 +54,22 @@ export function SignUpSecondStep({ navigation, route }: NextScreenProps){
       Alert.alert('As senhas não são iguais')
     }
 
-    navigation.navigate('Confirmation', {
-      nextScreenRoute: 'SignIn',
-      title: 'Conta criada!',
-      message: `Agora é só fazer o login\n e aproveitar.`
+    await api.post('/users', {
+      name: user.name,
+      email: user.email,
+      driver_license: user.driverLicense,
+      password
     })
+    .then(() => {
+      navigation.navigate('Confirmation', {
+        nextScreenRoute: 'SignIn',
+        title: 'Conta criada!',
+        message: `Agora é só fazer o login\n e aproveitar.`
+      })
+    })
+    .catch(() => {
+      Alert.alert('Opa', 'Não foi possível cadastrar');
+    });
   };
 
   function handleBack() {
