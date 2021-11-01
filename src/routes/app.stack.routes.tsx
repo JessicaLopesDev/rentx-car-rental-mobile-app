@@ -20,11 +20,15 @@ export function AppStackRoutes(){
       screenOptions={{
         headerShown: false,
       }} 
-      initialRouteName="Splash"
+      initialRouteName="Home"
       >
-        <Screen 
+      {/* <Screen 
         name="Splash"
         component={Splash}
+      /> */}
+      <Screen 
+        name="Home"
+        component={Home}
       />
       <Screen 
         name="SignIn"

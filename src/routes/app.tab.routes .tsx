@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { Home } from '../screens/Home';
 import { CarDetails } from '../screens/CarDetails';
 import { MyCars } from '../screens/MyCars';
+import { SignUpSecondStep } from '../screens/SignUp/SignUpSecondStep';
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -16,6 +17,10 @@ export function AppTabRoutes(){
       <Screen 
         name="MyCars"
         component={CarDetails}
+      />
+      <Screen 
+        name="SignUpSecondStep"
+        component={SignUpSecondStep}
       />
       <Screen 
         name="Profile"

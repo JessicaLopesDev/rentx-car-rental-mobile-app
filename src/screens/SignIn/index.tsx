@@ -15,6 +15,7 @@ import { PasswordInput } from '../../components/PasswordInput';
 import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Home';
+import { useAuth } from '../../hooks/auth';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -29,6 +30,7 @@ export function SignIn({ navigation }: NextScreenProps){
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const theme = useTheme();
+  const { signIn } = useAuth();
 
   async function handleSignIn() {
     try {
@@ -43,6 +45,7 @@ export function SignIn({ navigation }: NextScreenProps){
       Alert.alert('Tudo certo');
       navigation.navigate('Home');
       
+      signIn({ email, password });
     } catch (error) {
       if(error instanceof Yup.ValidationError) {
         Alert.alert('Opa', error.message)

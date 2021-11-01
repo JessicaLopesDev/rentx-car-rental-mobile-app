@@ -59,7 +59,7 @@ export function Splash({ navigation } : NextScreenProps){
   });
 
   const startApp = () => {
-    navigation.navigate('Home');
+    navigation.navigate('SignIn');
   }
 
   useEffect(() => {
