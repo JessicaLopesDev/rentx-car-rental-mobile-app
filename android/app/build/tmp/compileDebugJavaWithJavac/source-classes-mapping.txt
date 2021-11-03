@@ -1,0 +1,17 @@
+com/rentx/MainActivity.java
+ com.rentx.MainActivity
+ com.rentx.MainActivity$1
+com/rentx/generated/BasePackageList.java
+ com.rentx.generated.BasePackageList
+com/rentx/MainApplication.java
+ com.rentx.MainApplication
+ com.rentx.MainApplication$1
+com/rentx/BuildConfig.java
+ com.rentx.BuildConfig
+com/rentx/ReactNativeFlipper.java
+ com.rentx.ReactNativeFlipper
+ com.rentx.ReactNativeFlipper$1
+ com.rentx.ReactNativeFlipper$2
+ com.rentx.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
