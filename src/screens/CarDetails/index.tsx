@@ -123,8 +123,8 @@ export function CarDetails({ navigation, route }: NextScreenProps){
           </S.Description>
 
           <S.Rent>
-            <S.Period>{car.rent.period}</S.Period>
-            <S.Price>{`R$ ${car.rent.price}`}</S.Price>
+            <S.Period>{car.period}</S.Period>
+            <S.Price>{`R$ ${car.price}`}</S.Price>
           </S.Rent>
         </S.Details>
 

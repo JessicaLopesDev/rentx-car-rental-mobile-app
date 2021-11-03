@@ -1,3 +1,4 @@
+import { AxiosResponse } from "axios";
 import React, { createContext, ReactNode, useContext, useState } from "react";
 import api from "../services/api";
 
@@ -37,9 +38,14 @@ function AuthProvider({ children } : AuthProviderProps) {
     const response = await api.post('/sessions', {
       email,
       password
-    });
-
+    });  
     console.log(response.data)
+    
+    const { data: { token, user } } = response as AxiosResponse<any>;
+    // api.defaults.headers.authorization = `Bearer ${token}`
+    // setData({ token, user })
+    console.log(token, user)
+
   }
 
   return (

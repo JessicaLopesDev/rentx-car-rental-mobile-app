@@ -52,7 +52,7 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
   const [rentalPeriod, setRentalPeriod] = useState<RentalPeriod>({} as RentalPeriod)
   const theme = useTheme();
   const { car, dates } = route.params as Params
-  const totalRent = Number(dates.length * car.rent.price);
+  const totalRent = Number(dates.length * car.price);
 
   async function handleConfirmation() {
     const schedulesByCar = await api.get(`/schedules_bycars/${car.id}`);
@@ -119,8 +119,8 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
           </S.Description>
 
           <S.Rent>
-            <S.Period>{car.rent.period}</S.Period>
-            <S.Price>{`R$ ${car.rent.price}`}</S.Price>
+            <S.Period>{car.period}</S.Period>
+            <S.Price>{`R$ ${car.price}`}</S.Price>
           </S.Rent>
         </S.Details>
 
@@ -166,7 +166,7 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
         <S.RentalPrice>
           <S.RentalPriceLabel>TOTAL</S.RentalPriceLabel>
           <S.RentalPriceDetails>
-            <S.RentalPriceQuota>{`R$ ${car.rent.price} x${dates.length} diárias`}</S.RentalPriceQuota>
+            <S.RentalPriceQuota>{`R$ ${car.price} x${dates.length} diárias`}</S.RentalPriceQuota>
             <S.RentalPriceTotal>{`R$ ${totalRent}`}</S.RentalPriceTotal>
           </S.RentalPriceDetails>
         </S.RentalPrice>

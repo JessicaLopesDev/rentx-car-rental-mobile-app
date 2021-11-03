@@ -42,8 +42,6 @@ export function SignIn({ navigation }: NextScreenProps){
           .required('A senha é obrigatória')
       });
       await schema.validate({ email, password });
-      Alert.alert('Tudo certo');
-      navigation.navigate('Home');
       
       signIn({ email, password });
     } catch (error) {
