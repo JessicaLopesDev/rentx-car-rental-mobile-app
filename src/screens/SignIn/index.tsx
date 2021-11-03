@@ -16,6 +16,7 @@ import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Home';
 import { useAuth } from '../../hooks/auth';
+import { database } from '../../database';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
