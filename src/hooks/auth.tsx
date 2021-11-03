@@ -1,12 +1,16 @@
 import { AxiosResponse } from "axios";
-import React, { createContext, ReactNode, useContext, useState } from "react";
+import React, { 
+  createContext, 
+  ReactNode, 
+  useContext, 
+  useState } from "react";
 import api from "../services/api";
 
 interface User {
   id: string;
   user_id: string;
-  email: string;
   name: string;
+  email: string;
   driver_license: string;
   avatar: string;
   token: string;
@@ -35,17 +39,20 @@ function AuthProvider({ children } : AuthProviderProps) {
   const [data, setData] = useState<User>({} as User);
 
   async function signIn({ email, password } : SignInCredentials) {
-    const response = await api.post('/sessions', {
-      email,
-      password
-    });  
-    console.log(response.data)
-    
-    const { data: { token, user } } = response as AxiosResponse<any>;
-    // api.defaults.headers.authorization = `Bearer ${token}`
-    // setData({ token, user })
-    console.log(token, user)
+    try {
+      const response = await api.post<any>('/sessions', {
+        email,
+        password
+      }); 
+      const apiAxios: any = api;
+      
+      const { token, user } = response.data;
+      apiAxios.defaults.headers.Authorization  = `Bearer ${token}`;
 
+      setData({ token, ...user })
+    } catch (error) {
+      throw new Error(error as string)
+    }
   }
 
   return (
