@@ -65,6 +65,15 @@
             android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
 
         <provider
+            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+            android:authorities="com.rentx.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+        <provider
             android:name="expo.modules.filesystem.FileSystemFileProvider"
             android:authorities="com.rentx.FileSystemFileProvider"
             android:exported="false"
