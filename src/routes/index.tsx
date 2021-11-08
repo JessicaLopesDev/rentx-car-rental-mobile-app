@@ -9,7 +9,7 @@ export function Routes(){
 
   return (
     <NavigationContainer>
-      { user.token ? <AppTabRoutes /> : <AuthRoutes /> }
+      { user.id ? <AppTabRoutes /> : <AuthRoutes /> }
     </NavigationContainer>
   )
 }

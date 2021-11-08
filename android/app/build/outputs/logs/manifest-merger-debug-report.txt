@@ -1,49 +1,50 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
-MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
+MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
 MERGED from [hermes-debug.aar] /home/jean/.gradle/caches/transforms-3/8035dd8eaea33025c79e1eb8474197f6/transformed/jetified-hermes-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/jean/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/jean/.gradle/caches/transforms-3/f2277971424d3b480dc6947912db4a82/transformed/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/jean/.gradle/caches/transforms-3/41ec121671894bdab02604232681cf66/transformed/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
-MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:expo-splash-screen] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-app-loading/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-safe-area-context] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-svg] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:expo-splash-screen] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-app-loading/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/transforms-3/0bfe5a337810b65803a29f3977c90add/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/jean/.gradle/caches/transforms-3/4a8afa75ba36a884751b261ed379b805/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jean/.gradle/caches/transforms-3/e1897a1e253522328c759013e7019896/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/f46fba36425fb98d442241ec9a7fbcb3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [:expo-application] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-constants] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-error-recovery] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-font] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-image-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-keep-awake] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-permissions] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-structured-headers] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-structured-headers/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-app-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-permissions-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-task-manager-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-core] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-barcode-scanner-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-camera-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-constants-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-face-detector-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-file-system-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-font-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-image-loader-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-sensors-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/7b505b8fc441270457c6ff370b17bfee/transformed/jetified-react-native-reanimated-63/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-application] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-font] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-image-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-permissions] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-structured-headers] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-structured-headers/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-app-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/ec434751342b3d4c288e26c184a5d66f/transformed/jetified-react-native-reanimated-63/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/jean/.gradle/caches/transforms-3/0e1864785b027f047952c6c12edc35a4/transformed/jetified-flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/jean/.gradle/caches/transforms-3/e7a346f85a9400e11a94d3eec630451d/transformed/jetified-stetho-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] /home/jean/.gradle/caches/transforms-3/da01a6dd05c91f7f2d27ec362d89af3e/transformed/jetified-fresco-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -69,6 +70,7 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jean/.gradle/caches
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jean/.gradle/caches/transforms-3/aca5944157df1bbe7bc1cd1303a1cedc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] /home/jean/.gradle/caches/transforms-3/78a999a105d2b16991ce1357e011a460/transformed/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jean/.gradle/caches/transforms-3/0f840d1b6c086351251f9cab8cdcba4e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] /home/jean/.gradle/caches/transforms-3/41419a3ae05798a1723695e7deddd6ca/transformed/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/489ea3a3aa6e560af96c4ce3349d7f8a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /home/jean/.gradle/caches/transforms-3/210ec31f9cd484f47c4cf6a405d863ea/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -102,76 +104,78 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/jean/.gradle/caches/tr
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/jean/.gradle/caches/transforms-3/5d2bf8f9f64d408a2901e6ad0afb7c98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/jean/.gradle/caches/transforms-3/5ab55e28775262e06726e71feeba8b59/transformed/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/jean/.gradle/caches/transforms-3/eb58f6c9a7f48aaa376aa9e8c8719421/transformed/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:70-89
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:70-89
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:70-89
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:70-89
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:2:5-51
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:2:5-51
 	android:versionCode
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-23:12
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:2:3-64
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:2:3-64
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/jean/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/jean/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:15:5-67
-MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:2:20-62
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:2:20-62
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:3:3-75
-MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:3:3-75
-MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:3:3-75
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:3:3-75
+MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:3:3-75
+MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:3:3-75
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:3:20-73
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:3:20-73
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:4:3-72
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:4:3-72
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:4:20-70
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:4:20-70
 uses-permission#android.permission.VIBRATE
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:5:3-63
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:5:3-63
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:5:20-61
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:5:20-61
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:6:3-77
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:6:3-77
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:6:20-75
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:6:20-75
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:7:3-77
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:7:3-77
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:7:20-75
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:7:20-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:8:3-78
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:8:3-78
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:8:20-76
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:8:20-76
 application
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:3-22:17
-MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:3-22:17
-MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:3-22:17
-MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
-MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:3-22:17
+MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:3-22:17
+MERGED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:3-22:17
+MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/transforms-3/0bfe5a337810b65803a29f3977c90add/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/transforms-3/0bfe5a337810b65803a29f3977c90add/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-27:19
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-27:19
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-27:19
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-27:19
 MERGED from [com.facebook.soloader:soloader:0.9.0] /home/jean/.gradle/caches/transforms-3/50a361236f03f1c26f3bb5fa40a5c5eb/transformed/jetified-soloader-0.9.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] /home/jean/.gradle/caches/transforms-3/50a361236f03f1c26f3bb5fa40a5c5eb/transformed/jetified-soloader-0.9.0/AndroidManifest.xml:11:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/jean/.gradle/caches/transforms-3/6459c22acb33f7e9f293228e5aad3073/transformed/jetified-lottie-3.4.0/AndroidManifest.xml:9:5-20
@@ -193,91 +197,91 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /home/jean/.gradle
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:48-80
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:48-80
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:48-80
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:48-80
 	tools:ignore
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:6:75-114
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:6:75-114
 	android:roundIcon
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:116-161
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:116-161
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:116-161
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:116-161
 	tools:targetApi
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:6:54-74
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:6:54-74
 	android:icon
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:81-115
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:81-115
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:81-115
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:81-115
 	android:allowBackup
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:162-189
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:162-189
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:162-189
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:162-189
 	android:theme
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:190-221
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:190-221
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:190-221
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:190-221
 	android:usesCleartextTraffic
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:6:18-53
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml:6:18-53
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:16-47
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:16-47
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:16-47
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:16-47
 meta-data#expo.modules.updates.EXPO_UPDATE_URL
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:10:5-126
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:10:5-126
 	android:value
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:10:68-124
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:10:68-124
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:10:16-67
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:10:16-67
 meta-data#expo.modules.updates.EXPO_SDK_VERSION
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:11:5-93
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:11:5-93
 	android:value
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:11:69-91
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:11:69-91
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:11:16-68
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:11:16-68
 meta-data#expo.modules.updates.ENABLED
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:12:5-82
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:12:5-82
 	android:value
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:12:60-80
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:12:60-80
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:12:16-59
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:12:16-59
 meta-data#expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:13:5-105
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:13:5-105
 	android:value
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:13:81-103
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:13:81-103
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:13:16-80
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:13:16-80
 meta-data#expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:14:5-99
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:14:5-99
 	android:value
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:14:80-97
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:14:80-97
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:14:16-79
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:14:16-79
 activity#com.rentx.MainActivity
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:5-20:16
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:5-20:16
 	android:label
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:44-76
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:44-76
 	android:launchMode
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:155-186
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:155-186
 	android:windowSoftInputMode
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:187-229
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:187-229
 	android:configChanges
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:77-154
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:77-154
 	android:theme
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:230-275
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:230-275
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:15-43
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:15:15-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:16:7-19:23
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:16:7-19:23
 action#android.intent.action.MAIN
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:17:9-60
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:17:9-60
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:17:17-58
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:17:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:18:9-68
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:18:9-68
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:18:19-66
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:18:19-66
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:21:5-81
+ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:21:5-81
 	android:name
-		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:21:15-79
+		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:21:15-79
 uses-sdk
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
 MERGED from [hermes-debug.aar] /home/jean/.gradle/caches/transforms-3/8035dd8eaea33025c79e1eb8474197f6/transformed/jetified-hermes-debug/AndroidManifest.xml:5:5-44
 MERGED from [hermes-debug.aar] /home/jean/.gradle/caches/transforms-3/8035dd8eaea33025c79e1eb8474197f6/transformed/jetified-hermes-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/jean/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:11:5-13:41
@@ -286,76 +290,78 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/jean/.gra
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/jean/.gradle/caches/transforms-3/f2277971424d3b480dc6947912db4a82/transformed/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/jean/.gradle/caches/transforms-3/41ec121671894bdab02604232681cf66/transformed/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/jean/.gradle/caches/transforms-3/41ec121671894bdab02604232681cf66/transformed/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-splash-screen] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-app-loading/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-splash-screen] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-app-loading/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-safe-area-context] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-svg] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-svg] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-app-loading/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-app-loading/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/transforms-3/0bfe5a337810b65803a29f3977c90add/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/transforms-3/0bfe5a337810b65803a29f3977c90add/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/jean/.gradle/caches/transforms-3/4a8afa75ba36a884751b261ed379b805/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/jean/.gradle/caches/transforms-3/4a8afa75ba36a884751b261ed379b805/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jean/.gradle/caches/transforms-3/e1897a1e253522328c759013e7019896/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jean/.gradle/caches/transforms-3/e1897a1e253522328c759013e7019896/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/f46fba36425fb98d442241ec9a7fbcb3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/f46fba36425fb98d442241ec9a7fbcb3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [:expo-application] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-application] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-error-recovery] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-error-recovery] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-font] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-font] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-image-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-image-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-keep-awake] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-keep-awake] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-structured-headers] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-structured-headers/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-structured-headers] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-structured-headers/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-app-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-app-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-permissions-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-permissions-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-barcode-scanner-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-barcode-scanner-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-camera-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-camera-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-constants-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-constants-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-face-detector-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-face-detector-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-file-system-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-file-system-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-font-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-font-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-image-loader-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-image-loader-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-sensors-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-sensors-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/7b505b8fc441270457c6ff370b17bfee/transformed/jetified-react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/7b505b8fc441270457c6ff370b17bfee/transformed/jetified-react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-application] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-application] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-structured-headers] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-structured-headers/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-structured-headers] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-structured-headers/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/ec434751342b3d4c288e26c184a5d66f/transformed/jetified-react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/ec434751342b3d4c288e26c184a5d66f/transformed/jetified-react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/jean/.gradle/caches/transforms-3/0e1864785b027f047952c6c12edc35a4/transformed/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/jean/.gradle/caches/transforms-3/0e1864785b027f047952c6c12edc35a4/transformed/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/jean/.gradle/caches/transforms-3/e7a346f85a9400e11a94d3eec630451d/transformed/jetified-stetho-2.2.0/AndroidManifest.xml:5:5-7:41
@@ -406,6 +412,8 @@ MERGED from [androidx.fragment:fragment:1.2.1] /home/jean/.gradle/caches/transfo
 MERGED from [androidx.fragment:fragment:1.2.1] /home/jean/.gradle/caches/transforms-3/78a999a105d2b16991ce1357e011a460/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jean/.gradle/caches/transforms-3/0f840d1b6c086351251f9cab8cdcba4e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jean/.gradle/caches/transforms-3/0f840d1b6c086351251f9cab8cdcba4e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /home/jean/.gradle/caches/transforms-3/41419a3ae05798a1723695e7deddd6ca/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /home/jean/.gradle/caches/transforms-3/41419a3ae05798a1723695e7deddd6ca/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/489ea3a3aa6e560af96c4ce3349d7f8a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -472,46 +480,56 @@ MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/jean/.gradle/caches/transfo
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/jean/.gradle/caches/transforms-3/5ab55e28775262e06726e71feeba8b59/transformed/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/jean/.gradle/caches/transforms-3/eb58f6c9a7f48aaa376aa9e8c8719421/transformed/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/jean/.gradle/caches/transforms-3/eb58f6c9a7f48aaa376aa9e8c8719421/transformed/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] /home/jean/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] /home/jean/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
 meta-data#org.unimodules.core.AppLoader#react-native-headless
-ADDED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:91
+ADDED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:91
 	android:value
-		ADDED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
+		ADDED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
 	android:name
-		ADDED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+		ADDED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+ADDED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
-provider#expo.modules.filesystem.FileSystemFileProvider
-ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-26:20
+		ADDED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-47
+		ADDED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+		ADDED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
 	android:exported
-		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-37
-	tools:replace
-		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-48
+		ADDED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-74
+		ADDED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-25:70
+ADDED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
 	android:resource
-		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+		ADDED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
 	android:name
-		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/projetos/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-67
+		ADDED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-26:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+	android:exported
+		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-48
+	android:name
+		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-74
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
 	android:exported

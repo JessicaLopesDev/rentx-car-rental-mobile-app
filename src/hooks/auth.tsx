@@ -3,6 +3,7 @@ import React, {
   createContext, 
   ReactNode, 
   useContext, 
+  useEffect, 
   useState } from "react";
 import { database } from "../database";
 import api from "../services/api";
@@ -69,6 +70,21 @@ function AuthProvider({ children } : AuthProviderProps) {
       throw new Error(error as string)
     }
   }
+
+  useEffect(() => {
+    async function loadUserData() {
+      const userCollection = database.get<ModelUser>('users');
+      const response = await userCollection.query().fetch();
+      if (response.length > 0) {
+        const userData = response[0]._raw as unknown as User;
+
+        const apiAxios: any = api;
+        apiAxios.defaults.headers.Authorization  = `Bearer ${userData.token}`;
+        setData(userData);
+      }
+    }
+    loadUserData()
+  },[])
 
   return (
     <AuthContext.Provider
