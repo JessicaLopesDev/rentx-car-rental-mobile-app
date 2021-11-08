@@ -27,6 +27,15 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享對象"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="crop_image_activity_no_permissions">取消中，未授予所需權限</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">裁切</string>
+    <string name="crop_image_menu_flip">翻轉</string>
+    <string name="crop_image_menu_flip_horizontally">水平翻轉</string>
+    <string name="crop_image_menu_flip_vertically">垂直翻轉</string>
+    <string name="crop_image_menu_rotate_left">逆時針旋轉</string>
+    <string name="crop_image_menu_rotate_right">旋轉</string>
+    <string name="pick_image_intent_chooser_title">選擇來源</string>
     <string msgid="6264217191555673260" name="search_menu_title">"搜尋"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -27,6 +27,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="crop_image_activity_no_permissions">必要な権限がありません、キャンセルしています。</string>
+    <string name="crop_image_menu_crop">切り取り</string>
+    <string name="crop_image_menu_flip">反転</string>
+    <string name="crop_image_menu_flip_horizontally">左右反転</string>
+    <string name="crop_image_menu_flip_vertically">上下反転</string>
+    <string name="crop_image_menu_rotate_left">左回転</string>
+    <string name="crop_image_menu_rotate_right">右回転</string>
+    <string name="pick_image_intent_chooser_title">画像を選択</string>
     <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

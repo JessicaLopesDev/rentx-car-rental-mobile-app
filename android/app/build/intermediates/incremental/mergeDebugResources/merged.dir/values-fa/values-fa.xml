@@ -27,6 +27,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"هم‌رسانی با"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"هم‌رسانی با <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
+    <string name="crop_image_activity_no_permissions">لغو، مجوزهای مورد نیاز ارائه نشده</string>
+    <string name="crop_image_menu_crop">بریدن (کراپ)</string>
+    <string name="crop_image_menu_flip">آیینه کردن</string>
+    <string name="crop_image_menu_flip_horizontally">آیینه کردن به صورت افقی</string>
+    <string name="crop_image_menu_flip_vertically">آیینه کردن به صورت عمودی</string>
+    <string name="crop_image_menu_rotate_left">چرخش در جهت عقربه های ساعت</string>
+    <string name="crop_image_menu_rotate_right">چرخش</string>
+    <string name="pick_image_intent_chooser_title">منبع را انتخاب کنید</string>
     <string msgid="6264217191555673260" name="search_menu_title">"جستجو"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

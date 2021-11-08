@@ -27,6 +27,15 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="crop_image_activity_no_permissions">Vorgang wird abgebrochen, benötigte Berechtigungen wurden nicht erteilt.</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">zuschneiden</string>
+    <string name="crop_image_menu_flip">spiegeln</string>
+    <string name="crop_image_menu_flip_horizontally">horizontal spiegeln</string>
+    <string name="crop_image_menu_flip_vertically">vertikal spiegeln</string>
+    <string name="crop_image_menu_rotate_left">gegen den Uhrzeigersinn drehen</string>
+    <string name="crop_image_menu_rotate_right">drehen</string>
+    <string name="pick_image_intent_chooser_title">Quelle wählen</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

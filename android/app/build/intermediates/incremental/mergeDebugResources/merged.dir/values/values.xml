@@ -718,6 +718,14 @@
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="combobox_description" translatable="false">Combo Box</string>
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
@@ -770,6 +778,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
     <string name="progressbar_description" translatable="false">Progress Bar</string>
     <string name="radiogroup_description" translatable="false">Radio Group</string>
     <string name="rn_tab_description" translatable="false">Tab</string>
@@ -5714,6 +5723,52 @@
             <!-- Dodge all the inset edges. -->
             <flag name="all" value="0x77"/>
         </attr>
+    </declare-styleable>
+    <declare-styleable name="CropImageView">
+        <attr name="cropGuidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+        <attr name="cropScaleType">
+            <enum name="fitCenter" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="centerCrop" value="2"/>
+            <enum name="centerInside" value="3"/>
+        </attr>
+        <attr name="cropShape">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+        <attr format="boolean" name="cropAutoZoomEnabled"/>
+        <attr format="integer" name="cropMaxZoom"/>
+        <attr format="boolean" name="cropMultiTouchEnabled"/>
+        <attr format="boolean" name="cropFixAspectRatio"/>
+        <attr format="integer" name="cropAspectRatioX"/>
+        <attr format="integer" name="cropAspectRatioY"/>
+        <attr format="float" name="cropInitialCropWindowPaddingRatio"/>
+        <attr format="dimension" name="cropBorderLineThickness"/>
+        <attr format="color" name="cropBorderLineColor"/>
+        <attr format="dimension" name="cropBorderCornerThickness"/>
+        <attr format="dimension" name="cropBorderCornerOffset"/>
+        <attr format="dimension" name="cropBorderCornerLength"/>
+        <attr format="color" name="cropBorderCornerColor"/>
+        <attr format="dimension" name="cropGuidelinesThickness"/>
+        <attr format="color" name="cropGuidelinesColor"/>
+        <attr format="color" name="cropBackgroundColor"/>
+        <attr format="dimension" name="cropSnapRadius"/>
+        <attr format="dimension" name="cropTouchRadius"/>
+        <attr format="boolean" name="cropSaveBitmapToInstanceState"/>
+        <attr format="boolean" name="cropShowCropOverlay"/>
+        <attr format="boolean" name="cropShowProgressBar"/>
+        <attr format="dimension" name="cropMinCropWindowWidth"/>
+        <attr format="dimension" name="cropMinCropWindowHeight"/>
+        <attr format="float" name="cropMinCropResultWidthPX"/>
+        <attr format="float" name="cropMinCropResultHeightPX"/>
+        <attr format="float" name="cropMaxCropResultWidthPX"/>
+        <attr format="float" name="cropMaxCropResultHeightPX"/>
+        <attr format="boolean" name="cropFlipHorizontally"/>
+        <attr format="boolean" name="cropFlipVertically"/>
     </declare-styleable>
     <declare-styleable name="DrawerArrowToggle">
         <!-- The drawing color for the bars -->

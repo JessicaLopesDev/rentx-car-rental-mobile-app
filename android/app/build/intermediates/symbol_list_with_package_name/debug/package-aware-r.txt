@@ -275,6 +275,38 @@ attr counterOverflowTextAppearance
 attr counterOverflowTextColor
 attr counterTextAppearance
 attr counterTextColor
+attr cropAspectRatioX
+attr cropAspectRatioY
+attr cropAutoZoomEnabled
+attr cropBackgroundColor
+attr cropBorderCornerColor
+attr cropBorderCornerLength
+attr cropBorderCornerOffset
+attr cropBorderCornerThickness
+attr cropBorderLineColor
+attr cropBorderLineThickness
+attr cropFixAspectRatio
+attr cropFlipHorizontally
+attr cropFlipVertically
+attr cropGuidelines
+attr cropGuidelinesColor
+attr cropGuidelinesThickness
+attr cropInitialCropWindowPaddingRatio
+attr cropMaxCropResultHeightPX
+attr cropMaxCropResultWidthPX
+attr cropMaxZoom
+attr cropMinCropResultHeightPX
+attr cropMinCropResultWidthPX
+attr cropMinCropWindowHeight
+attr cropMinCropWindowWidth
+attr cropMultiTouchEnabled
+attr cropSaveBitmapToInstanceState
+attr cropScaleType
+attr cropShape
+attr cropShowCropOverlay
+attr cropShowProgressBar
+attr cropSnapRadius
+attr cropTouchRadius
 attr customNavigationLayout
 attr dayInvalidStyle
 attr daySelectedStyle
@@ -1350,6 +1382,9 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable crop_image_menu_flip
+drawable crop_image_menu_rotate_left
+drawable crop_image_menu_rotate_right
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1399,7 +1434,10 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id CropOverlayView
+id CropProgressBar
 id FUNCTION
+id ImageView_image
 id META
 id SHIFT
 id SYM
@@ -1497,6 +1535,13 @@ id container
 id content
 id contentPanel
 id coordinator
+id cropImageView
+id crop_image_menu_crop
+id crop_image_menu_flip
+id crop_image_menu_flip_horizontally
+id crop_image_menu_flip_vertically
+id crop_image_menu_rotate_left
+id crop_image_menu_rotate_right
 id custom
 id customPanel
 id cut
@@ -1603,7 +1648,9 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onTouch
 id outline
+id oval
 id parallax
 id parentPanel
 id parent_matrix
@@ -1614,6 +1661,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id react_test_id
+id rectangle
 id restart
 id reverse
 id right
@@ -1780,6 +1828,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout crop_image_activity
+layout crop_image_view
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1860,6 +1910,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu crop_image_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -1929,6 +1980,14 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string combobox_description
+string crop_image_activity_no_permissions
+string crop_image_activity_title
+string crop_image_menu_crop
+string crop_image_menu_flip
+string crop_image_menu_flip_horizontally
+string crop_image_menu_flip_vertically
+string crop_image_menu_rotate_left
+string crop_image_menu_rotate_right
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -1981,6 +2040,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pick_image_intent_chooser_title
 string progressbar_description
 string radiogroup_description
 string rn_tab_description
@@ -2731,6 +2791,7 @@ styleable ColorStateListItem android_color android_alpha alpha
 styleable CompoundButton android_button buttonCompat buttonTint buttonTintMode
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
+styleable CropImageView cropAspectRatioX cropAspectRatioY cropAutoZoomEnabled cropBackgroundColor cropBorderCornerColor cropBorderCornerLength cropBorderCornerOffset cropBorderCornerThickness cropBorderLineColor cropBorderLineThickness cropFixAspectRatio cropFlipHorizontally cropFlipVertically cropGuidelines cropGuidelinesColor cropGuidelinesThickness cropInitialCropWindowPaddingRatio cropMaxCropResultHeightPX cropMaxCropResultWidthPX cropMaxZoom cropMinCropResultHeightPX cropMinCropResultWidthPX cropMinCropWindowHeight cropMinCropWindowWidth cropMultiTouchEnabled cropSaveBitmapToInstanceState cropScaleType cropShape cropShowCropOverlay cropShowProgressBar cropSnapRadius cropTouchRadius
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
@@ -2793,6 +2854,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml file_provider_paths
 xml file_system_provider_paths
+xml image_picker_provider_paths
 xml rn_dev_preferences
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end

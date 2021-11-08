@@ -27,6 +27,15 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Udostępnij przez:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Udostępnij przez: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Zwiń"</string>
+    <string name="crop_image_activity_no_permissions">Przerywaniem, potrzebne uprawnienia nie zostały nadane</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">Przytnij</string>
+    <string name="crop_image_menu_flip">Odbij</string>
+    <string name="crop_image_menu_flip_horizontally">Odbij poziomo</string>
+    <string name="crop_image_menu_flip_vertically">Odbij pionowo</string>
+    <string name="crop_image_menu_rotate_left">Obróć w lewo</string>
+    <string name="crop_image_menu_rotate_right">Obróć</string>
+    <string name="pick_image_intent_chooser_title">Wybierz źródło</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Szukaj"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -27,6 +27,15 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dela med"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string name="crop_image_activity_no_permissions">Avbryter, nödvändiga behörigheter beviljas inte</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">Beskär</string>
+    <string name="crop_image_menu_flip">Vänd</string>
+    <string name="crop_image_menu_flip_horizontally">Vänd horisontellt</string>
+    <string name="crop_image_menu_flip_vertically">Vänd vertikalt</string>
+    <string name="crop_image_menu_rotate_left">Rotera vänster</string>
+    <string name="crop_image_menu_rotate_right">Rotera höger</string>
+    <string name="pick_image_intent_chooser_title">Välj bild</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Sök"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

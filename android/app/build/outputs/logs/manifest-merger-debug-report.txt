@@ -21,6 +21,7 @@ MERGED from [:react-native-svg] /home/jean/Documentos/jessica-estudos/ROCKETSEAT
 MERGED from [:react-native-webview] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/transforms-3/0bfe5a337810b65803a29f3977c90add/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-46:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/jean/.gradle/caches/transforms-3/4a8afa75ba36a884751b261ed379b805/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jean/.gradle/caches/transforms-3/e1897a1e253522328c759013e7019896/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/f46fba36425fb98d442241ec9a7fbcb3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -60,6 +61,7 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/jean/.gradle
 MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/jean/.gradle/caches/transforms-3/114e03a367c43d6151ba83ece742341f/transformed/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:soloader:2.2.0] /home/jean/.gradle/caches/transforms-3/12c507560fa28ee53c8012216c890e24/transformed/jetified-soloader-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.9.0] /home/jean/.gradle/caches/transforms-3/50a361236f03f1c26f3bb5fa40a5c5eb/transformed/jetified-soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /home/jean/.gradle/caches/transforms-3/cc2c1cba6318696ff8a8e68808a6448b/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/jean/.gradle/caches/transforms-3/6459c22acb33f7e9f293228e5aad3073/transformed/jetified-lottie-3.4.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] /home/jean/.gradle/caches/transforms-3/bf53105e9a076c4946a78e7331df5e95/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/jean/.gradle/caches/transforms-3/c810a29ee9cc32eddbe9f435a5d40943/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -87,6 +89,7 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jean/
 MERGED from [androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jean/.gradle/caches/transforms-3/23d2e0ec640ac0f1217dd532b81cc98e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/jean/.gradle/caches/transforms-3/81f01bdd0688b3e25e2df6c05837e7e3/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/jean/.gradle/caches/transforms-3/a5839c7ee866c5cb2116d18ab8fbe22d/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/jean/.gradle/caches/transforms-3/2e0b3ab42374ec9a803f9b198c2c72a5/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.1] /home/jean/.gradle/caches/transforms-3/7f5e5771cd039620ec1bf7a3c6dead65/transformed/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jean/.gradle/caches/transforms-3/00c6a24e62cd70720a1d5bedd6736c1c/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
@@ -156,12 +159,16 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:7:3-77
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
 	android:name
 		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:7:20-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:8:3-78
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-81
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-81
 	android:name
 		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:8:20-76
 application
@@ -176,6 +183,8 @@ MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/t
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/transforms-3/0bfe5a337810b65803a29f3977c90add/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-27:19
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-27:19
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-44:19
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-44:19
 MERGED from [com.facebook.soloader:soloader:0.9.0] /home/jean/.gradle/caches/transforms-3/50a361236f03f1c26f3bb5fa40a5c5eb/transformed/jetified-soloader-0.9.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] /home/jean/.gradle/caches/transforms-3/50a361236f03f1c26f3bb5fa40a5c5eb/transformed/jetified-soloader-0.9.0/AndroidManifest.xml:11:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/jean/.gradle/caches/transforms-3/6459c22acb33f7e9f293228e5aad3073/transformed/jetified-lottie-3.4.0/AndroidManifest.xml:9:5-20
@@ -314,6 +323,8 @@ MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/t
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jean/.gradle/caches/transforms-3/0bfe5a337810b65803a29f3977c90add/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
 MERGED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/jean/.gradle/caches/transforms-3/4a8afa75ba36a884751b261ed379b805/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/jean/.gradle/caches/transforms-3/4a8afa75ba36a884751b261ed379b805/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jean/.gradle/caches/transforms-3/e1897a1e253522328c759013e7019896/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
@@ -392,6 +403,8 @@ MERGED from [com.facebook.fresco:soloader:2.2.0] /home/jean/.gradle/caches/trans
 MERGED from [com.facebook.fresco:soloader:2.2.0] /home/jean/.gradle/caches/transforms-3/12c507560fa28ee53c8012216c890e24/transformed/jetified-soloader-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.9.0] /home/jean/.gradle/caches/transforms-3/50a361236f03f1c26f3bb5fa40a5c5eb/transformed/jetified-soloader-0.9.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.9.0] /home/jean/.gradle/caches/transforms-3/50a361236f03f1c26f3bb5fa40a5c5eb/transformed/jetified-soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /home/jean/.gradle/caches/transforms-3/cc2c1cba6318696ff8a8e68808a6448b/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /home/jean/.gradle/caches/transforms-3/cc2c1cba6318696ff8a8e68808a6448b/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/jean/.gradle/caches/transforms-3/6459c22acb33f7e9f293228e5aad3073/transformed/jetified-lottie-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/jean/.gradle/caches/transforms-3/6459c22acb33f7e9f293228e5aad3073/transformed/jetified-lottie-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.1.0] /home/jean/.gradle/caches/transforms-3/bf53105e9a076c4946a78e7331df5e95/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
@@ -446,6 +459,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jean/.gradle/cach
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jean/.gradle/caches/transforms-3/23d2e0ec640ac0f1217dd532b81cc98e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/jean/.gradle/caches/transforms-3/81f01bdd0688b3e25e2df6c05837e7e3/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/jean/.gradle/caches/transforms-3/81f01bdd0688b3e25e2df6c05837e7e3/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/jean/.gradle/caches/transforms-3/a5839c7ee866c5cb2116d18ab8fbe22d/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/jean/.gradle/caches/transforms-3/a5839c7ee866c5cb2116d18ab8fbe22d/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/jean/.gradle/caches/transforms-3/2e0b3ab42374ec9a803f9b198c2c72a5/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/jean/.gradle/caches/transforms-3/2e0b3ab42374ec9a803f9b198c2c72a5/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] /home/jean/.gradle/caches/transforms-3/7f5e5771cd039620ec1bf7a3c6dead65/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
@@ -530,6 +545,40 @@ ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/
 		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-48
 	android:name
 		ADDED from [:expo-file-system] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-74
+uses-permission#android.permission.CAMERA
+ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+queries
+ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-22:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:21-70
+intent#action:name:android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-27:18
+action#android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-80
+	android:name
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:21-77
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-33:59
+	android:theme
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-76
+provider#expo.modules.imagepicker.ImagePickerFileProvider
+ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:9-43:20
+	android:grantUriPermissions
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-47
+	android:authorities
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-75
+	android:exported
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [:expo-image-picker] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-76
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
 	android:exported

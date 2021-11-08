@@ -27,6 +27,15 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string name="crop_image_activity_no_permissions">Đang hủy, các quyền đã yêu cầu không được cấp</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">Cắt</string>
+    <string name="crop_image_menu_flip">Lật</string>
+    <string name="crop_image_menu_flip_horizontally">Lật theo chiều ngang</string>
+    <string name="crop_image_menu_flip_vertically">Lật theo chiều dọc</string>
+    <string name="crop_image_menu_rotate_left">Xoay theo chiều kim đồng hồ</string>
+    <string name="crop_image_menu_rotate_right">Xoay</string>
+    <string name="pick_image_intent_chooser_title">Chọn nguồn</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Tìm kiếm"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

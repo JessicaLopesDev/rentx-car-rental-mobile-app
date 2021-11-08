@@ -21,6 +21,7 @@ export type RootStackParamList = {
   Scheduling: {} | undefined;
   SchedulingDetails: {} | undefined;
   MyCars: undefined;
+  Profile: undefined;
 };
 
 type HomeScreenNavigationProp = StackNavigationProp<

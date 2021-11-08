@@ -20,6 +20,7 @@
     "expo": "~41.0.1",
     "expo-app-loading": "^1.1.2",
     "expo-font": "~9.1.0",
+    "expo-image-picker": "~10.1.4",
     "expo-splash-screen": "~0.10.2",
     "expo-updates": "~0.5.4",
     "lottie-react-native": "3.5.0",
