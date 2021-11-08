@@ -89,6 +89,7 @@ export function Profile({ navigation } : NextScreenProps){
       if (error instanceof Yup.ValidationError) {
         Alert.alert('Epa!', error.message)
       } else {
+        console.log(error)
         Alert.alert('Ops', 'Não foi possível atualizar o perfil')
       }
     }

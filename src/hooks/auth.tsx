@@ -89,10 +89,10 @@ function AuthProvider({ children } : AuthProviderProps) {
       const userCollection = database.get<ModelUser>('users')
       await database.write(async () => {
         const userSelected = await userCollection.find(user.id)
-        await userSelected.update(userData => {
-          (userData.name = user.name),
-          (userData.driver_license = user.driver_license),
-          (userData.avatar = user.avatar)
+        await userSelected.update((userData) => {
+          userData.name = user.name,
+          userData.driver_license = user.driver_license,
+          userData.avatar = user.avatar
         });
       });
 
