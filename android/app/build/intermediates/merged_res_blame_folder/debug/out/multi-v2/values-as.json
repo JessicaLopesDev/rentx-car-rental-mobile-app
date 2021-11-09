@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/res/values-as/values-as.xml",
+                    "source": "/home/jean/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/res/values-as/values-as.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

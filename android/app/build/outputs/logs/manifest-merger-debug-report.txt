@@ -13,6 +13,7 @@ MERGED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-est
 MERGED from [:expo-splash-screen] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-app-loading/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_netinfo] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -69,11 +70,11 @@ MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/jean/.gradle/caches/tr
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/jean/.gradle/caches/transforms-3/8fa1dfb591991014b6098e97964884ba/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jean/.gradle/caches/transforms-3/d825dc28ced6d2add3b7b4bdd91b4dce/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jean/.gradle/caches/transforms-3/84d03a2723473e1f02df2d90e22d814b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jean/.gradle/caches/transforms-3/aca5944157df1bbe7bc1cd1303a1cedc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] /home/jean/.gradle/caches/transforms-3/78a999a105d2b16991ce1357e011a460/transformed/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jean/.gradle/caches/transforms-3/0f840d1b6c086351251f9cab8cdcba4e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.webkit:webkit:1.4.0] /home/jean/.gradle/caches/transforms-3/41419a3ae05798a1723695e7deddd6ca/transformed/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/489ea3a3aa6e560af96c4ce3349d7f8a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /home/jean/.gradle/caches/transforms-3/210ec31f9cd484f47c4cf6a405d863ea/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jean/.gradle/caches/transforms-3/8fb991958c05710728d127d1e553e1f4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -86,7 +87,7 @@ MERGED from [androidx.customview:customview:1.0.0] /home/jean/.gradle/caches/tra
 MERGED from [androidx.transition:transition:1.2.0] /home/jean/.gradle/caches/transforms-3/dc471c519b4fd3c7c5cfaf8702ad1aa2/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jean/.gradle/caches/transforms-3/f030c12a289332b0ae5be8ca9f0b39c1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jean/.gradle/caches/transforms-3/53316ead3e5b35b21858026c2a741677/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.3.2] /home/jean/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jean/.gradle/caches/transforms-3/23d2e0ec640ac0f1217dd532b81cc98e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/jean/.gradle/caches/transforms-3/81f01bdd0688b3e25e2df6c05837e7e3/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/jean/.gradle/caches/transforms-3/a5839c7ee866c5cb2116d18ab8fbe22d/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -195,8 +196,8 @@ MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/jean/.gradle/caches/tr
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/jean/.gradle/caches/transforms-3/0923a5331eb265f496d28e596eb705d4/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
 MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
-MERGED from [androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/jean/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/jean/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/jean/.gradle/caches/transforms-3/81f01bdd0688b3e25e2df6c05837e7e3/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/jean/.gradle/caches/transforms-3/81f01bdd0688b3e25e2df6c05837e7e3/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jean/.gradle/caches/transforms-3/00c6a24e62cd70720a1d5bedd6736c1c/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -204,7 +205,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jean/
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/jean/.gradle/caches/transforms-3/5d2bf8f9f64d408a2901e6ad0afb7c98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/jean/.gradle/caches/transforms-3/5d2bf8f9f64d408a2901e6ad0afb7c98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.2] /home/jean/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:48-80
 		ADDED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:48-80
@@ -307,6 +308,8 @@ MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ign
 MERGED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:nozbe_watermelondb] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@nozbe/watermelondb/native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_netinfo] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:lottie-react-native] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -419,6 +422,8 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jean/.
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jean/.gradle/caches/transforms-3/d825dc28ced6d2add3b7b4bdd91b4dce/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jean/.gradle/caches/transforms-3/84d03a2723473e1f02df2d90e22d814b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jean/.gradle/caches/transforms-3/84d03a2723473e1f02df2d90e22d814b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jean/.gradle/caches/transforms-3/aca5944157df1bbe7bc1cd1303a1cedc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jean/.gradle/caches/transforms-3/aca5944157df1bbe7bc1cd1303a1cedc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.1] /home/jean/.gradle/caches/transforms-3/78a999a105d2b16991ce1357e011a460/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
@@ -427,8 +432,6 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jean/.gra
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jean/.gradle/caches/transforms-3/0f840d1b6c086351251f9cab8cdcba4e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.webkit:webkit:1.4.0] /home/jean/.gradle/caches/transforms-3/41419a3ae05798a1723695e7deddd6ca/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.webkit:webkit:1.4.0] /home/jean/.gradle/caches/transforms-3/41419a3ae05798a1723695e7deddd6ca/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.1.0] /home/jean/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/489ea3a3aa6e560af96c4ce3349d7f8a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jean/.gradle/caches/transforms-3/489ea3a3aa6e560af96c4ce3349d7f8a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /home/jean/.gradle/caches/transforms-3/210ec31f9cd484f47c4cf6a405d863ea/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
@@ -453,8 +456,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jean/.gradle/ca
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jean/.gradle/caches/transforms-3/f030c12a289332b0ae5be8ca9f0b39c1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jean/.gradle/caches/transforms-3/53316ead3e5b35b21858026c2a741677/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jean/.gradle/caches/transforms-3/53316ead3e5b35b21858026c2a741677/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/jean/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/jean/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jean/.gradle/caches/transforms-3/23d2e0ec640ac0f1217dd532b81cc98e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jean/.gradle/caches/transforms-3/23d2e0ec640ac0f1217dd532b81cc98e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/jean/.gradle/caches/transforms-3/81f01bdd0688b3e25e2df6c05837e7e3/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
@@ -505,6 +508,8 @@ INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-
 		INJECTED from /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] /home/jean/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+MERGED from [:react-native-community_netinfo] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] /home/jean/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
 meta-data#org.unimodules.core.AppLoader#react-native-headless
@@ -515,6 +520,8 @@ ADDED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estu
 		ADDED from [:unimodules-react-native-adapter] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-community_netinfo] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-community_netinfo] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from [:expo-updates] /home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider

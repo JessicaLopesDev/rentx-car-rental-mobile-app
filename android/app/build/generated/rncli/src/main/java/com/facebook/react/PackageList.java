@@ -13,6 +13,8 @@ import java.util.ArrayList;
 
 // @nozbe/watermelondb
 import com.nozbe.watermelondb.WatermelonDBPackage;
+// @react-native-community/netinfo
+import com.reactnativecommunity.netinfo.NetInfoPackage;
 // lottie-react-native
 import com.airbnb.android.react.lottie.LottiePackage;
 // react-native-gesture-handler
@@ -73,6 +75,7 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new WatermelonDBPackage(),
+      new NetInfoPackage(),
       new LottiePackage(),
       new RNGestureHandlerPackage(),
       new ReanimatedPackage(),

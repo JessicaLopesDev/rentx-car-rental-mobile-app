@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StatusBar, StyleSheet } from 'react-native';
+import { Alert, StatusBar, StyleSheet } from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
 import Logo from '../../assets/logo.svg';
 import { Card } from '../../components/Card';
@@ -9,6 +9,7 @@ import api from '../../services/api';
 import { CarDTO } from '../../dtos/CarDTO';
 import { LoadAnimation } from '../../components/LoadAnimation';
 import * as S from './styles';
+import { useNetInfo } from '@react-native-community/netinfo';
 
 export type RootStackParamList = {
   SignIn: {} | undefined;
@@ -33,6 +34,8 @@ export function Home(){
   const [cars, setCars] = useState<CarDTO[]>([]);
   const [loading, setLoading] = useState(true);
   const navigation = useNavigation<HomeScreenNavigationProp>();
+
+  const netInfo = useNetInfo();
 
   function handleCarDetails(car: CarDTO) {
     navigation.navigate('CarDetails', { car })
@@ -60,6 +63,14 @@ export function Home(){
       isMounted = false;
     };
   },[]);
+
+  useEffect(() => {
+    if (netInfo.isConnected) {
+      Alert.alert('Você está online')
+    } else {
+      Alert.alert('Você está offline')
+    }
+  },[netInfo.isConnected])
 
   return (
     <S.Container>

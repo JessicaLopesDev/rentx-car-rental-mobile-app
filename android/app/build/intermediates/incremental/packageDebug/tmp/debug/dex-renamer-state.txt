@@ -1,9 +1,10 @@
-#Mon Nov 08 18:11:11 BRT 2021
+#Tue Nov 09 14:24:56 BRT 2021
 path.4=classes_1.dex
 path.3=classes_0.dex
 path.2=classes2.dex
 path.1=classes.dex
 path.8=classes_13.dex
+renamed.36=classes37.dex
 path.7=classes_12.dex
 renamed.35=classes36.dex
 path.6=classes_11.dex
@@ -21,6 +22,7 @@ path.35=classes_32.dex
 path.32=classes_7.dex
 path.9=classes_14.dex
 path.33=classes_8.dex
+path.36=classes_33.dex
 renamed.29=classes30.dex
 renamed.28=classes29.dex
 renamed.27=classes28.dex
@@ -76,6 +78,7 @@ path.27=classes_30.dex
 path.28=classes_31.dex
 path.25=classes_29.dex
 path.26=classes_3.dex
+base.36=/home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_33.dex
 base.4=/home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_1.dex
 base.3=/home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
 base.2=/home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex

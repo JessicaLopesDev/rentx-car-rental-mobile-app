@@ -70,7 +70,7 @@
 39        android:allowBackup="false"
 39-->/home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:162-189
 40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-40-->[androidx.core:core:1.3.0] /home/jean/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+40-->[androidx.core:core:1.3.2] /home/jean/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
 41        android:debuggable="true"
 42        android:icon="@mipmap/ic_launcher"
 42-->/home/jean/Documentos/jessica-estudos/ROCKETSEAT/ignite/rentx-car-rental-mobile-app/android/app/src/main/AndroidManifest.xml:9:81-115
