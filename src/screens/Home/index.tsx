@@ -35,7 +35,6 @@ export function Home(){
   const [loading, setLoading] = useState(true);
   const navigation = useNavigation<HomeScreenNavigationProp>();
 
-  const netInfo = useNetInfo();
 
   function handleCarDetails(car: CarDTO) {
     navigation.navigate('CarDetails', { car })
@@ -58,19 +57,13 @@ export function Home(){
         }
       }
     }
+
     fetchCars();
+
     return () => {
       isMounted = false;
     };
   },[]);
-
-  useEffect(() => {
-    if (netInfo.isConnected) {
-      Alert.alert('Você está online')
-    } else {
-      Alert.alert('Você está offline')
-    }
-  },[netInfo.isConnected])
 
   return (
     <S.Container>

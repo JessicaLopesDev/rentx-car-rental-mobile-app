@@ -51,10 +51,9 @@ function AuthProvider({ children } : AuthProviderProps) {
       
       const { token, user } = response.data;
       apiAxios.defaults.headers.Authorization  = `Bearer ${token}`;
-
       const userCollection = database.get<ModelUser>('users');
       await database.write(async() => {
-        await userCollection.create(( newUser ) => {
+        const { id, user_id, name, avatar, driver_license, email, token } = await userCollection.create(( newUser ) => {
           newUser.user_id = user.id,
           newUser.name = user.name,
           newUser.email = user.email,
@@ -62,9 +61,10 @@ function AuthProvider({ children } : AuthProviderProps) {
           newUser.avatar = user.avatar,
           newUser.token = token
         })
+
+        setData({ id, user_id, name, avatar, driver_license, email, token })
       })
 
-      setData({ token, ...user })
     } catch (error) {
       throw new Error(error as string)
     }
@@ -107,6 +107,7 @@ function AuthProvider({ children } : AuthProviderProps) {
     async function loadUserData() {
       const userCollection = database.get<ModelUser>('users');
       const response = await userCollection.query().fetch();
+
       if (response.length > 0) {
         const userData = response[0]._raw as unknown as User;
 
