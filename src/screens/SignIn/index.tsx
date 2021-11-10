@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { 
   Alert,
   Keyboard, 
@@ -17,6 +17,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Home';
 import { useAuth } from '../../hooks/auth';
 import { database } from '../../database';
+import { useNetInfo } from '@react-native-community/netinfo';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -32,6 +33,8 @@ export function SignIn({ navigation }: NextScreenProps){
   const [password, setPassword] = useState('');
   const theme = useTheme();
   const { signIn } = useAuth();
+
+  const netInfo = useNetInfo();
 
   async function handleSignIn() {
     try {
@@ -60,6 +63,14 @@ export function SignIn({ navigation }: NextScreenProps){
   function handleNewAccount() {
     navigation.navigate('SignUpFirstStep')
   };
+
+  useEffect(() => {
+    if (netInfo.isConnected) {
+      Alert.alert('Você está online')
+    } else {
+      Alert.alert('Você está offline')
+    }
+  },[netInfo.isConnected])
 
   return (
     <KeyboardAvoidingView 
