@@ -34,8 +34,6 @@ export function SignIn({ navigation }: NextScreenProps){
   const theme = useTheme();
   const { signIn } = useAuth();
 
-  const netInfo = useNetInfo();
-
   async function handleSignIn() {
     try {
       const schema = Yup.object().shape({
@@ -63,14 +61,6 @@ export function SignIn({ navigation }: NextScreenProps){
   function handleNewAccount() {
     navigation.navigate('SignUpFirstStep')
   };
-
-  useEffect(() => {
-    if (netInfo.isConnected) {
-      Alert.alert('Você está online')
-    } else {
-      Alert.alert('Você está offline')
-    }
-  },[netInfo.isConnected])
 
   return (
     <KeyboardAvoidingView 
