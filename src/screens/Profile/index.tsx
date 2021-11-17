@@ -18,6 +18,7 @@ import {
 import * as ImagePicker from 'expo-image-picker';
 import * as Yup from 'yup';
 import * as S from './styles';
+import { useNetInfo } from '@react-native-community/netinfo';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -37,13 +38,18 @@ export function Profile({ navigation } : NextScreenProps){
   const [driverLicense, setDriverLicense] = useState(user.driver_license);
 
   const theme = useTheme();
+  const netInfo = useNetInfo();
 
   function handleBack() {
     navigation.goBack();
   }
 
   function handleOptionChange(optionSelected: 'dataEdit' | 'passwordEdit') {
-    setOption(optionSelected);
+    if(netInfo.isConnected === false && optionSelected === 'passwordEdit') {
+      Alert.alert('Você está Offline', 'Para mudar a senha, conecte-se à internet')
+    } else {
+      setOption(optionSelected);
+    }
   }
 
   async function handleAvatarSelect() {

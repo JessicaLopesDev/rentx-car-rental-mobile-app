@@ -18,4 +18,8 @@ target 'rentX' do
   #     flipper_post_install(installer)
   #   end
   # end
+  pod 'RNFastImage', :path => '../node_modules/react-native-fast-image'
+
+  pod 'react-native-netinfo', :path => '../node_modules/@react-native-community/netinfo'
+
 end

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Accessory } from '../../components/Accessory';
 import { BackButton } from '../../components/BackButton';
 import { ImageSlider } from '../../components/ImageSlider';
@@ -15,11 +15,14 @@ import * as S from './styles';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Home';
 import { RouteProp } from '@react-navigation/native';
-import { CarDTO } from '../../dtos/CarDTO';
 import { getAccessoryIcon } from '../../utils/getAccessoryIcon';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 import { StatusBar, StyleSheet } from 'react-native';
 import { useTheme } from 'styled-components';
+import { CarDTO } from '../../dtos/CarDTO';
+import { Car as ModelCar } from '../../database/model/Car';
+import api from '../../services/api';
+import { useNetInfo } from '@react-native-community/netinfo';
 
 type NextScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -37,10 +40,13 @@ type NextScreenProps = {
 }
 
 interface Params {
-  car: CarDTO;
+  car: ModelCar;
 }
 
 export function CarDetails({ navigation, route }: NextScreenProps){
+  const [updatedCar, setUpdatedCar] = useState<CarDTO>({} as CarDTO);
+
+  const netInfo  = useNetInfo();
   const { car } = route.params as Params
   const theme = useTheme()
   console.log(car)
@@ -80,6 +86,16 @@ export function CarDetails({ navigation, route }: NextScreenProps){
     navigation.goBack();
   };
 
+  useEffect(() => {
+    async function fetchUpdatedCar() {
+      const response = await api.get(`/cars/${car.id}`);
+      setUpdatedCar(response.data);
+    }
+    if(netInfo.isConnected === true) {
+      fetchUpdatedCar();
+    }
+  },[netInfo.isConnected])
+
   return (
     <S.Container >
       <StatusBar 
@@ -100,8 +116,8 @@ export function CarDetails({ navigation, route }: NextScreenProps){
         <Animated.View style={sliderCarsStyleAnimation}>
           <S.CarImages>
             <ImageSlider 
-              imagesUrl={!!car.photos ? 
-                car.photos : [{ id: car.thumbnail, photo: car.thumbnail }]}
+              imagesUrl={!!updatedCar.photos ? 
+                updatedCar.photos : [{ id: car.thumbnail, photo: car.thumbnail }]}
             />
           </S.CarImages>
         </Animated.View>
@@ -124,27 +140,26 @@ export function CarDetails({ navigation, route }: NextScreenProps){
 
           <S.Rent>
             <S.Period>{car.period}</S.Period>
-            <S.Price>{`R$ ${car.price}`}</S.Price>
+            <S.Price>R$ {netInfo.isConnected === true ? car.price : '...'}</S.Price>
           </S.Rent>
         </S.Details>
 
-        <S.Accessories>
-          {
-            car.accessories.map(accessory => (
-              <Accessory 
-                key={accessory.type}
-                name={accessory.name}
-                icon={getAccessoryIcon(accessory.type)}
-              />
-            ))
-          }
-        </S.Accessories>
+        { 
+          updatedCar.accessories &&
+          <S.Accessories>
+            {
+              updatedCar.accessories.map(accessory => (
+                <Accessory 
+                  key={accessory.type}
+                  name={accessory.name}
+                  icon={getAccessoryIcon(accessory.type)}
+                />
+              ))
+            }
+          </S.Accessories>
+        }
 
         <S.About>
-          {car.about}
-          {car.about}
-          {car.about}
-          {car.about}
           {car.about}
         </S.About>
       </Animated.ScrollView>
@@ -153,7 +168,15 @@ export function CarDetails({ navigation, route }: NextScreenProps){
         <Button 
           title="Escolher período do aluguel"
           onPress={handleScheduling}
+          enabled={netInfo.isConnected === true}
         />
+
+        {
+          netInfo.isConnected === false &&
+          <S.OfflineInfo>
+            Conecte-se a internet para ver mais detalhes e agendar seu carro.
+          </S.OfflineInfo>
+        }
       </S.Footer>
     </S.Container>
   )

@@ -1,4 +1,5 @@
 import React from 'react';
+import { LogBox } from 'react-native';
 import {
   useFonts,
   Inter_400Regular,
@@ -18,6 +19,9 @@ import { Routes } from './src/routes';
 import { AppProvider } from './src/hooks';
 
 export default function App() {
+  LogBox.ignoreLogs([
+    'Non-serializable values were found in the navigation state',
+  ]);
   const [fontsLoaded] = useFonts({
     Inter_400Regular,
     Inter_500Medium,

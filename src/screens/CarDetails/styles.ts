@@ -98,6 +98,15 @@ export const About = styled.Text`
   `}
 `;
 
+export const OfflineInfo = styled.Text`
+  ${({ theme }) => css`
+    color: ${theme.colors.main};
+    font-family: ${theme.fonts.secondary_500};
+    font-size: ${RFValue(10)}px;
+    text-align: center;
+  `}
+`;
+
 export const Footer = styled.View`
   ${({ theme }) => css`
     width: 100%;

@@ -9,7 +9,7 @@ export function Routes(){
   const { user, loading } = useAuth();
 
   return (
-    loading ? <LoadAnimation /> :
+    //loading ? <LoadAnimation /> :
     <NavigationContainer>
       { user.id ? <AppTabRoutes /> : <AuthRoutes /> }
     </NavigationContainer>

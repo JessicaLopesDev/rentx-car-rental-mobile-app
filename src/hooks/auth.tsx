@@ -44,14 +44,13 @@ function AuthProvider({ children } : AuthProviderProps) {
 
   async function signIn({ email, password } : SignInCredentials) {
     try {
-      const response = await api.post<any>('/sessions', {
+      const response = await api.post('/sessions', {
         email,
         password
       }); 
-      const apiAxios: any = api;
       
       const { token, user } = response.data;
-      apiAxios.defaults.headers.Authorization  = `Bearer ${token}`;
+      api.defaults.headers.common['Authorization'] = AUTH_TOKEN;
       const userCollection = database.get<ModelUser>('users');
       await database.write(async() => {
         const { id, user_id, name, avatar, driver_license, email, token } = await userCollection.create(( newUser ) => {
@@ -112,8 +111,7 @@ function AuthProvider({ children } : AuthProviderProps) {
       if (response.length > 0) {
         const userData = response[0]._raw as unknown as User;
 
-        const apiAxios: any = api;
-        apiAxios.defaults.headers.Authorization  = `Bearer ${userData.token}`;
+        api.defaults.headers.common['Authorization'] = AUTH_TOKEN;
         setData(userData);
         setLoading(false)
       }
