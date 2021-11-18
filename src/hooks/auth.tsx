@@ -50,7 +50,8 @@ function AuthProvider({ children } : AuthProviderProps) {
       }); 
       
       const { token, user } = response.data;
-      api.defaults.headers.common['Authorization'] = AUTH_TOKEN;
+      api.defaults.headers.common['Authorization'] = token;
+
       const userCollection = database.get<ModelUser>('users');
       await database.write(async() => {
         const { id, user_id, name, avatar, driver_license, email, token } = await userCollection.create(( newUser ) => {
@@ -111,7 +112,7 @@ function AuthProvider({ children } : AuthProviderProps) {
       if (response.length > 0) {
         const userData = response[0]._raw as unknown as User;
 
-        api.defaults.headers.common['Authorization'] = AUTH_TOKEN;
+        api.defaults.headers.common['Authorization'] = userData.token;        
         setData(userData);
         setLoading(false)
       }
