@@ -50,7 +50,7 @@ function AuthProvider({ children } : AuthProviderProps) {
       }); 
       
       const { token, user } = response.data;
-      api.defaults.headers.common['Authorization'] = token;
+      api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
       const userCollection = database.get<ModelUser>('users');
       await database.write(async() => {
@@ -112,8 +112,8 @@ function AuthProvider({ children } : AuthProviderProps) {
       if (response.length > 0) {
         const userData = response[0]._raw as unknown as User;
 
-        api.defaults.headers.common['Authorization'] = userData.token;        
-        setData(userData);
+      api.defaults.headers.common['Authorization'] = `Bearer ${userData.token}`;
+      setData(userData);
         setLoading(false)
       }
     }
