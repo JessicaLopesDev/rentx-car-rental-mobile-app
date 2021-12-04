@@ -3,7 +3,7 @@ import { useNavigation } from '@react-navigation/native';
 import { StatusBar, FlatList } from 'react-native';
 import { useTheme } from 'styled-components';
 import { AntDesign } from '@expo/vector-icons';
-import { format,parseISO } from 'date-fns';
+import { format, parseISO } from 'date-fns';
 
 import { BackButton } from '../../components/BackButton';
 import { Card } from '../../components/Card';
@@ -20,7 +20,7 @@ interface DataProps {
   end_date: string;
 }
 
-export function MyCars(){
+export function MyCars() {
   const [cars, setCars] = useState<DataProps[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -30,20 +30,21 @@ export function MyCars(){
   const handleBack = () => {
     navigation.goBack();
   }
-  
+
   useEffect(() => {
     async function fetchCars() {
       try {
         const response = await api.get('/rentals');
+
         const formattedData = response.data.map((data: DataProps) => {
           return {
-              id: data.id,
-              car: data.car,
-              start_date: format(parseISO(data.start_date), 'dd/MM/yyyy'),
-              end_date: format(parseISO(data.end_date), 'dd/MM/yyyy'),
+            id: data.id,
+            car: data.car,
+            start_date: format(parseISO(data.start_date), 'dd/MM/yyyy'),
+            end_date: format(parseISO(data.end_date), 'dd/MM/yyyy'),
           }
-      })        
-      setCars(formattedData);
+        })
+        setCars(formattedData);
       } catch (error) {
         console.log(error)
       } finally {
@@ -56,12 +57,12 @@ export function MyCars(){
   return (
     <S.Container>
       <S.Header>
-        <StatusBar 
+        <StatusBar
           barStyle="light-content"
           translucent
           backgroundColor="transparent"
         />
-        <BackButton 
+        <BackButton
           onPress={handleBack}
           color={theme.colors.shape}
         />
@@ -78,36 +79,36 @@ export function MyCars(){
       </S.Header>
       {
         loading ? <LoadAnimation /> :
-        <S.Content>
-          <S.Appointments>
-            <S.AppointmentsTitle>Agendamentos feitos</S.AppointmentsTitle>
-            <S.AppointmentsQuantity>{cars.length}</S.AppointmentsQuantity>
-          </S.Appointments>
-          
-          <FlatList 
-            data={cars}
-            keyExtractor={item => String(item.id)}
-            showsVerticalScrollIndicator={false}
-            renderItem={({ item }) => (
-              <S.CarWrapper>
-                <Card data={item.car} />
-                <S.CarFooter>
-                  <S.CarFooterTitle>Período</S.CarFooterTitle>
-                  <S.CarFooterPeriod>
-                    <S.CarFooterDate>{item.start_date}</S.CarFooterDate>
-                    <AntDesign 
-                      name="arrowright"
-                      size={20}
-                      color={theme.colors.title}
-                      style={{ marginHorizontal:10 }}
-                    />
-                    <S.CarFooterDate>{item.end_date}</S.CarFooterDate>
-                  </S.CarFooterPeriod>
-                </S.CarFooter>
-              </S.CarWrapper>
-            )}
-          />
-        </S.Content>
+          <S.Content>
+            <S.Appointments>
+              <S.AppointmentsTitle>Agendamentos feitos</S.AppointmentsTitle>
+              <S.AppointmentsQuantity>{cars.length}</S.AppointmentsQuantity>
+            </S.Appointments>
+
+            <FlatList
+              data={cars}
+              keyExtractor={item => String(item.id)}
+              showsVerticalScrollIndicator={false}
+              renderItem={({ item }) => (
+                <S.CarWrapper>
+                  <Card data={item.car} />
+                  <S.CarFooter>
+                    <S.CarFooterTitle>Período</S.CarFooterTitle>
+                    <S.CarFooterPeriod>
+                      <S.CarFooterDate>{item.start_date}</S.CarFooterDate>
+                      <AntDesign
+                        name="arrowright"
+                        size={20}
+                        color={theme.colors.title}
+                        style={{ marginHorizontal: 10 }}
+                      />
+                      <S.CarFooterDate>{item.end_date}</S.CarFooterDate>
+                    </S.CarFooterPeriod>
+                  </S.CarFooter>
+                </S.CarWrapper>
+              )}
+            />
+          </S.Content>
       }
     </S.Container>
   )

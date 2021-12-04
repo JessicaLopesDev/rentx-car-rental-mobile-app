@@ -33,7 +33,7 @@ type HomeScreenNavigationProp = StackNavigationProp<
   'Home'
 >;
 
-export function Home(){
+export function Home() {
   const [cars, setCars] = useState<ModelCar[]>([]);
   const [loading, setLoading] = useState(true);
   const navigation = useNavigation<HomeScreenNavigationProp>();
@@ -44,7 +44,7 @@ export function Home(){
     navigation.navigate('CarDetails', { car })
   }
 
-  async function offlineSynchronize(){
+  async function offlineSynchronize() {
     await synchronize({
       database,
       pullChanges: async ({ lastPulledAt }) => {
@@ -56,7 +56,13 @@ export function Home(){
       },
       pushChanges: async ({ changes }) => {
         const user = changes.users;
-        await api.post('/users/sync', user);
+        /*
+          Coloquei esse if para prevenir que seja enviado um array vazio 
+          para a requisição caso o usuário não tenha atualizações.
+        */
+        if (user.updated.length > 0) {
+          await api.post('/users/sync', user);
+        }
       },
     });
   }
@@ -79,28 +85,29 @@ export function Home(){
         }
       }
     }
+
     fetchCars();
 
     return () => {
       isMounted = false;
     };
-  },[]);
+  }, []);
 
   useEffect(() => {
-    if(netInfo.isConnected === true){
+    if (netInfo.isConnected === true) {
       offlineSynchronize();
     }
-  },[netInfo.isConnected])
+  }, [netInfo.isConnected])
 
   return (
     <S.Container>
-      <StatusBar 
+      <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
         translucent
       />
       <S.Header>
-        <Logo 
+        <Logo
           width={RFValue(114)}
           height={RFValue(11)}
         />
@@ -111,14 +118,14 @@ export function Home(){
           </S.TotalCars>
         }
       </S.Header>
-      { loading ? 
+      {loading ?
         <LoadAnimation /> :
 
         <S.CarList
           data={cars}
           keyExtractor={item => item.id}
-          renderItem={({ item }) => 
-            <Card 
+          renderItem={({ item }) =>
+            <Card
               data={item}
               onPress={() => handleCarDetails(item)}
             />
