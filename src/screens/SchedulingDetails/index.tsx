@@ -25,7 +25,7 @@ type NextScreenNavigationProp = StackNavigationProp<
   'SchedulingDetails'
 >;
 type NextScreenRouteProp = RouteProp<
-  RootStackParamList, 
+  RootStackParamList,
   'SchedulingDetails'
 >;
 
@@ -48,12 +48,12 @@ interface UnavailableDatesProps {
   unavailable_dates: string[];
 }
 
-export function SchedulingDetails({ navigation, route }: NextScreenProps){
+export function SchedulingDetails({ navigation, route }: NextScreenProps) {
   const [loading, setLoading] = useState(false);
   const [rentalPeriod, setRentalPeriod] = useState<RentalPeriod>({} as RentalPeriod)
   const [updatedCar, setUpdatedCar] = useState<CarDTO>({} as CarDTO);
 
-  const netInfo  = useNetInfo();
+  const netInfo = useNetInfo();
   const theme = useTheme();
   const { car, dates } = route.params as Params
   const totalRent = Number(dates.length * car.price);
@@ -65,19 +65,20 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
       user_id: 2,
       car_id: car.id,
       start_date: new Date(dates[0]),
-      end_date: new Date(dates[dates.length -1]),
+      end_date: new Date(dates[dates.length - 1]),
       total: totalRent
     })
-    .then(() => navigation.navigate('Confirmation', {
-      nextScreenRoute: 'Home',
-      title: 'Carro alugado!',
-      message: `Agora você só precisa ir\naté a concessionária da RENTX\npegar o seu automóvel.`
-    }))
-    .catch(() => {
-      setLoading(false);
-      Alert.alert('Não foi possível confirmar o agendamento.')
-    })
-    }
+      .then(() => navigation.navigate('Confirmation', {
+        nextScreenRoute: 'Home',
+        title: 'Carro alugado!',
+        message: `Agora você só precisa ir\naté a concessionária da RENTX\npegar o seu automóvel.`
+      }))
+      .catch((error) => {
+        console.log("ERRO DO ALUGUEL =>", error)
+        setLoading(false);
+        Alert.alert('Não foi possível confirmar o agendamento.')
+      })
+  }
 
   function handleBack() {
     navigation.goBack();
@@ -86,33 +87,33 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
   useEffect(() => {
     setRentalPeriod({
       start: format(getPlatformDate(new Date(dates[0])), 'dd/MM/yyyy'),
-      end: format(getPlatformDate(new Date(dates[dates.length -1])), 'dd/MM/yyyy')
+      end: format(getPlatformDate(new Date(dates[dates.length - 1])), 'dd/MM/yyyy')
     })
-  },[]);
+  }, []);
 
   useEffect(() => {
     async function fetchUpdatedCar() {
       const response = await api.get(`/cars/${car.id}`);
       setUpdatedCar(response.data);
     }
-    if(netInfo.isConnected === true) {
+    if (netInfo.isConnected === true) {
       fetchUpdatedCar();
     }
-  },[netInfo.isConnected])
+  }, [netInfo.isConnected])
 
   return (
     <S.Container >
       <S.Header>
-        <BackButton onPress={handleBack}/>
+        <BackButton onPress={handleBack} />
       </S.Header>
 
       <S.CarImages>
-        <ImageSlider 
-          imagesUrl={!!updatedCar.photos ? 
+        <ImageSlider
+          imagesUrl={!!updatedCar.photos ?
             updatedCar.photos : [{ id: car.thumbnail, photo: car.thumbnail }]}
         />
       </S.CarImages>
-      
+
       <S.Content>
         <S.Details>
           <S.Description>
@@ -126,12 +127,12 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
           </S.Rent>
         </S.Details>
 
-        { 
+        {
           updatedCar.accessories &&
           <S.Accessories>
             {
               updatedCar.accessories.map(accessory => (
-                <Accessory 
+                <Accessory
                   key={accessory.type}
                   name={accessory.name}
                   icon={getAccessoryIcon(accessory.type)}
@@ -143,7 +144,7 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
 
         <S.RentalPeriod>
           <S.CalendarIcon>
-            <Feather 
+            <Feather
               name="calendar"
               size={RFValue(24)}
               color={theme.colors.shape}
@@ -155,7 +156,7 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
             <S.DateValue>{rentalPeriod.start}</S.DateValue>
           </S.DateInfo>
 
-          <Feather 
+          <Feather
             name="chevron-right"
             size={RFValue(10)}
             color={theme.colors.text}
@@ -177,7 +178,7 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
       </S.Content>
 
       <S.Footer>
-        <Button 
+        <Button
           title="Alugar agora"
           color={theme.colors.success}
           onPress={handleConfirmation}
@@ -187,4 +188,4 @@ export function SchedulingDetails({ navigation, route }: NextScreenProps){
       </S.Footer>
     </S.Container>
   )
-} 
+}
