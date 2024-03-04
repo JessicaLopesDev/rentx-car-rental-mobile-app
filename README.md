@@ -1,6 +1,6 @@
 ## 💵 RENTX ALUGUEL DE CARROS
 
-<img src="./src/assets/rentX.png"/>
+<img src="./assets/rentX.png"/>
 
 Aplicativo completo de aluguel de carros desenvolvido utilizando React Native, TypeScript, com implementação do conceito de Offline First e armazenamento em banco de dados local.
 
