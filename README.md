@@ -12,19 +12,19 @@ Aplicativo completo de aluguel de carros desenvolvido utilizando React Native, T
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
--React Native
--Typescript
--Expo Bare Workflow
--Async Storage
--Yup
--WatermelonDB
--Lottie
--Reanimated v2
--Cache Image
--Axios
--Moti
--Offline first
--Nodejs como backend
+- React Native
+- Typescript
+- Expo Bare Workflow
+- Async Storage
+- Yup
+- WatermelonDB
+- Lottie
+- Reanimated v2
+- Cache Image
+- Axios
+- Moti
+- Offline first
+- Nodejs como backend
 
 ## ⚙️ O que o app faz?
 
